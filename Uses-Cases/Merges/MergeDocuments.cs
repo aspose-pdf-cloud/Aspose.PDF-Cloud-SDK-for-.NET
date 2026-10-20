@@ -7,13 +7,13 @@ namespace Merges
         public static async Task Merge(MergesHelper helper, List<string> files, string outputName, string remoteFolder)
         {
             Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments documetItems = new(new List<string>());
-   
+
             foreach (var file in files)
             {
                 await helper.UploadFile(Path.GetFileName(file));
-                documetItems.List.Add(Path.Combine( remoteFolder, file));
+                documetItems.List.Add(Path.Combine(remoteFolder, file));
             }
-  
+
             DocumentResponse response = await helper.pdfApi.PutMergeDocumentsAsync(outputName, documetItems, folder: remoteFolder);
 
             if (response == null)

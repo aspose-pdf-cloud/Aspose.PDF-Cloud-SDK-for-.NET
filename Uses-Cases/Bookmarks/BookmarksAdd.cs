@@ -23,7 +23,7 @@ namespace Bookmarks
                 Color: new Color(A: 0x00, R: 0x00, G: 0xFF, B: 0x00)
             );
             List<Bookmark> newBookmarks = new List<Bookmark>() { bookmark };
-            
+
             BookmarksResponse response = await helper.pdfApi.PostBookmarkAsync(documentName, parentBookmarkPath, newBookmarks, folder: remoteFolder);
 
             if (response == null)

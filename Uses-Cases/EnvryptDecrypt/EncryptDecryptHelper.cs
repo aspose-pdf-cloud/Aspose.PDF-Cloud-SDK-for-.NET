@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.Text;
 
 namespace EncryptDecrypt
-{ 
+{
     public class ConfigParams
     {
         public string CrdentialPath { get; } = "settings/credentials.json";

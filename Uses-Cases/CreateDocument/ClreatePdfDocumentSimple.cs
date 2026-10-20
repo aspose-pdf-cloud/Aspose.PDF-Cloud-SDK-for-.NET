@@ -16,7 +16,7 @@ namespace CreateDocument
             string clientSecret = "*************";
 
             PdfApi pdfApi = new PdfApi(clientSecret, clientId);
-            pdfApi = new PdfApi(new Aspose.Pdf.Cloud.Sdk.Client.Configuration(true, "", "","http://localhost:5000/v3.0"));
+            pdfApi = new PdfApi(new Aspose.Pdf.Cloud.Sdk.Client.Configuration(true, "", "", "http://localhost:5000/v3.0"));
 
             DocumentResponse response = pdfApi.PutCreateDocument(PDF_DOCUMENT, folder: REMOTE_FOLDER);
             if (response.Code != 200)

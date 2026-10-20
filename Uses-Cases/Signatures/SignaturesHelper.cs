@@ -9,7 +9,7 @@ namespace Signatures
         public string CrdentialPath { get; } = "settings/credentials.json";
         public string LOCAL_FOLDER { get; } = "testData";
         public string REMOTE_TEMP_FOLDER { get; } = "TempPdfCloud";
-        
+
         public string PDF_DOCUMENT { get; } = "sample.pdf";
         public string PDF_SIGNED_DOCUMENT { get; } = "adbe.x509.rsa_sha1.valid.pdf";
 

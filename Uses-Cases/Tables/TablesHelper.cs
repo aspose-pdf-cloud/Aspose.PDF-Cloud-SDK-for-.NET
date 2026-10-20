@@ -12,7 +12,7 @@ namespace Tables
         public string PDF_DOCUMENT { get; } = "PdfWithTable.pdf";
 
         public string PDF_OUTPUT { get; } = "output_sample.pdf";
-        
+
         public int PAGE_NUMBER { get; } = 1;
 
         public string TABLE_ID { get; } = "GE5TIMJ3HEYCYOBTFQ2TANZMG43TA";

@@ -16,7 +16,8 @@ namespace Links
                 Console.WriteLine("LinksReplace(): Failed to receive link from the document.");
             else if (getResponse.Link == null)
                 Console.WriteLine("LinksReplace(): link '{0}' not found in the document '{1]'.", LinkID, documentName);
-            else {
+            else
+            {
                 Console.WriteLine("LinksReplace(): link '{0}' successfully received from the document '{1}.", LinkID, documentName);
                 Console.WriteLine(getResponse.Link.ToString());
 

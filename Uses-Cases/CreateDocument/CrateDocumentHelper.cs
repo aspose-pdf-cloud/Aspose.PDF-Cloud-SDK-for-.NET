@@ -24,7 +24,7 @@ namespace CreateDocument
 
     public class CrateDocumentHelper
     {
-        public PdfApi pdfApi {  get; private set; }
+        public PdfApi pdfApi { get; private set; }
         public ConfigParams config { get; private set; }
 
         public CrateDocumentHelper()

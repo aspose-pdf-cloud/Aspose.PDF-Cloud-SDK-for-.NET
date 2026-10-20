@@ -27,7 +27,8 @@ namespace Parser
                         Console.WriteLine(image.ToString());
 
                         string fileName = Path.Combine(localFolder, image.Id + ".png");
-                        using (var file = File.Create(fileName)) {
+                        using (var file = File.Create(fileName))
+                        {
                             respImage.Seek(0, SeekOrigin.Begin);
                             await respImage.CopyToAsync(file);
                             Console.WriteLine("GetImages(): File '{0}' successfully downloaded.", fileName);

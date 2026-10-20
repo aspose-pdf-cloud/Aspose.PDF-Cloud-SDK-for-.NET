@@ -17,7 +17,7 @@ namespace Signatures
                 Console.WriteLine("VerifySignature(): Failed to verify Pdf document signature.");
             else
             {
-                Console.WriteLine("VerifySignature(): Signature verified successfully in the Pdf document '{0}'. Status: '{1}'", 
+                Console.WriteLine("VerifySignature(): Signature verified successfully in the Pdf document '{0}'. Status: '{1}'",
                     documentName, response.Valid);
             }
 

@@ -65,7 +65,7 @@ namespace ChangeLayout
                     Console.WriteLine("UploadFile(): Unexpected error - no response!");
                 else if (response.Errors != null && response.Errors.Count > 0)
                     foreach (var error in response.Errors)
-                        Console.WriteLine("UploadFile(): {0} -> {1}", [ error.Code, error.Message]);
+                        Console.WriteLine("UploadFile(): {0} -> {1}", [error.Code, error.Message]);
                 else
                     Console.WriteLine("UploadFile(): File '{0}' successfully uploaded.", fileName);
             }
@@ -173,7 +173,7 @@ namespace ChangeLayout
                 FileName: Path.Combine(config.REMOTE_TEMP_FOLDER, imageFileValue)
             );
 
-            AsposeResponse response = await pdfApi.PostPageImageStampsAsync(document, 1, new List<ImageStamp>() { imageStamp}, folder: config.REMOTE_TEMP_FOLDER );
+            AsposeResponse response = await pdfApi.PostPageImageStampsAsync(document, 1, new List<ImageStamp>() { imageStamp }, folder: config.REMOTE_TEMP_FOLDER);
             if (response != null && response.Code == 200)
             {
                 Console.WriteLine("InsertPageAsImage(): Document '{0}' with stamp '{1}' created.", [document, imageFileValue]);

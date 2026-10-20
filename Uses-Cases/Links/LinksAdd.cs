@@ -27,7 +27,8 @@ namespace Links
                 Console.WriteLine("LinksAdd(): Unexpected error!");
             else if (response.Code < 200 || response.Code > 299)
                 Console.WriteLine("LinksAdd(): Failed to add link to the document.");
-            else {
+            else
+            {
                 Console.WriteLine("LinksAdd(): link '{0}' successfully appended to the document '{1}.", LinkAction, documentName);
                 await helper.DownloadFile(documentName, outputName, "add_link_");
             }

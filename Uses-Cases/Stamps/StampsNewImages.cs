@@ -10,7 +10,7 @@ namespace Stamps
             await helper.UploadFile(imageFileName);
 
             ImageStamp stamp = new ImageStamp(
-                Background: true, 
+                Background: true,
                 HorizontalAlignment: HorizontalAlignment.Center,
                 VerticalAlignment: VerticalAlignment.Top,
                 Opacity: 0.3,

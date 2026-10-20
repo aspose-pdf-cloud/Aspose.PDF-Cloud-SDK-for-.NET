@@ -160,6 +160,7 @@
   dotnet run --project Uses-Cases/Tables/Tables.csproj
   ```
 - *[Tables/AddTable.cs](Tables/AddTable.cs)* – Appends a new table to a specified page in a PDF document.
+- *[Tables/TableCreate.cs](Tables/TableCreate.cs)* – Builds a styled 5x5 `Table` model (header row, cell colors, borders) used by the add and replace table operations.
 - *[Tables/DeleteTable.cs](Tables/DeleteTable.cs)* – Deletes a specific table by its ID from a PDF document.
 - *[Tables/DeleteTableOnPage.cs](Tables/DeleteTableOnPage.cs)* – Deletes all tables from a specified page of a PDF document.
 - *[Tables/DeleteTables.cs](Tables/DeleteTables.cs)* – Deletes all tables from a PDF document.

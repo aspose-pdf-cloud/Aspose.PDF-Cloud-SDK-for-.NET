@@ -739,7 +739,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> DownloadFileWithHttpInfo (string path, string storageName = null, string versionId = null);
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -751,7 +751,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetApsInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -1942,7 +1942,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetDownloadDocumentAttachmentByIndexWithHttpInfo (string name, int? attachmentIndex, string storage = null, string folder = null);
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -1954,7 +1954,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetEpubInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2246,7 +2246,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of HighlightAnnotationResponse</returns>
         ApiResponse<HighlightAnnotationResponse> GetHighlightAnnotationWithHttpInfo (string name, string annotationId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2266,7 +2266,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetHtmlInStorageToPdf (string srcPath, string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2546,7 +2546,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetImportFieldsFromXfdfInStorageWithHttpInfo (string name, string xfdfFilePath, string storage = null, string folder = null);
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2560,7 +2560,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetImportFieldsFromXmlInStorage (string name, string xmlFilePath, string storage = null, string folder = null);
 
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2681,7 +2681,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of ListBoxFieldResponse</returns>
         ApiResponse<ListBoxFieldResponse> GetListBoxFieldWithHttpInfo (string name, string fieldName, string storage = null, string folder = null);
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2693,7 +2693,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetMarkdownInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2704,7 +2704,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetMarkdownInStorageToPdfWithHttpInfo (string srcPath, string storage = null);
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -2722,7 +2722,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetMhtInStorageToPdf (string srcPath, double? height = null, double? width = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -3898,7 +3898,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of DocumentPagesResponse</returns>
         ApiResponse<DocumentPagesResponse> GetPagesWithHttpInfo (string name, string storage = null, string folder = null);
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -3910,7 +3910,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetPclInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -3921,7 +3921,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetPclInStorageToPdfWithHttpInfo (string srcPath, string storage = null);
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -3934,7 +3934,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetPdfAInStorageToPdf (string srcPath, bool? dontOptimize = null, string storage = null);
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -4544,7 +4544,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of PopupAnnotationResponse</returns>
         ApiResponse<PopupAnnotationResponse> GetPopupAnnotationWithHttpInfo (string name, string annotationId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -4556,7 +4556,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetPsInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -4891,7 +4891,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of StrikeOutAnnotationResponse</returns>
         ApiResponse<StrikeOutAnnotationResponse> GetStrikeOutAnnotationWithHttpInfo (string name, string annotationId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -4911,7 +4911,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetSvgInStorageToPdf (string srcPath, bool? adjustPageSize = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -4957,7 +4957,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of TableRecognizedResponse</returns>
         ApiResponse<TableRecognizedResponse> GetTableWithHttpInfo (string name, string tableId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -4969,7 +4969,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetTeXInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5127,7 +5127,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of SignatureVerifyResponse</returns>
         ApiResponse<SignatureVerifyResponse> GetVerifySignatureWithHttpInfo (string name, string signName, string storage = null, string folder = null);
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response. 
+        /// Convert web page to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5146,7 +5146,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetWebInStorageToPdf (string url, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response. 
+        /// Convert web page to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5214,7 +5214,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetXfaPdfInStorageToAcroFormWithHttpInfo (string name, string folder = null, string storage = null);
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5227,7 +5227,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetXmlInStorageToPdf (string srcPath, string xslFilePath = null, string storage = null);
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5293,7 +5293,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetXmpMetadataXmlWithHttpInfo (string name, string folder = null, string storage = null, string passBase64 = null);
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5305,7 +5305,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetXpsInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5316,7 +5316,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of System.IO.Stream</returns>
         ApiResponse<System.IO.Stream> GetXpsInStorageToPdfWithHttpInfo (string srcPath, string storage = null);
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -5328,7 +5328,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream GetXslFoInStorageToPdf (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -6165,7 +6165,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PostFlattenDocumentWithHttpInfo (string name, bool? updateAppearances = null, bool? callEvents = null, bool? hideButtons = null, string storage = null, string folder = null);
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -6183,7 +6183,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.IO.Stream PostHtmlToPdf (string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null);
 
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -7592,7 +7592,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutAnnotationsFlattenWithHttpInfo (string name, int? startPage = null, int? endPage = null, List<AnnotationType> annotationTypes = null, string storage = null, string folder = null);
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -7606,7 +7606,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutApsInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -7944,7 +7944,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutEncryptDocumentWithHttpInfo (string outPath, string userPassword, string ownerPassword, string cryptoAlgorithm, List<PermissionsFlags> permissionsFlags = null, bool? usePdf20 = null, string storage = null, System.IO.Stream file = null);
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -7958,7 +7958,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutEpubInStorageToPdf (string name, string srcPath, string storage = null, string dstFolder = null);
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8193,7 +8193,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of HighlightAnnotationResponse</returns>
         ApiResponse<HighlightAnnotationResponse> PutHighlightAnnotationWithHttpInfo (string name, string annotationId, HighlightAnnotation annotation, string storage = null, string folder = null);
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8215,7 +8215,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutHtmlInStorageToPdf (string name, string srcPath, string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8368,7 +8368,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutImageExtractAsTiffWithHttpInfo (string name, string imageId, int? width = null, int? height = null, string storage = null, string folder = null, string destFolder = null);
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8382,7 +8382,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutImageInStorageToPdf (string name, ImageTemplatesRequest imageTemplates, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8724,7 +8724,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of ListBoxFieldResponse</returns>
         ApiResponse<ListBoxFieldResponse> PutListBoxFieldWithHttpInfo (string name, string fieldName, ListBoxField field, string storage = null, string folder = null);
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8738,7 +8738,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutMarkdownInStorageToPdf (string name, string srcPath, string storage = null, string dstFolder = null);
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8778,7 +8778,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of DocumentResponse</returns>
         ApiResponse<DocumentResponse> PutMergeDocumentsWithHttpInfo (string name, MergeDocuments mergeDocuments, string storage = null, string folder = null);
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -8798,7 +8798,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutMhtInStorageToPdf (string name, string srcPath, double? height = null, double? width = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -9085,7 +9085,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutPageConvertToTiffWithHttpInfo (string name, int? pageNumber, string outPath, int? width = null, int? height = null, string folder = null, string storage = null, string password = null);
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -9099,7 +9099,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutPclInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -9112,7 +9112,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutPclInStorageToPdfWithHttpInfo (string name, string srcPath, string dstFolder = null, string storage = null);
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -9127,7 +9127,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutPdfAInStorageToPdf (string name, string srcPath, string dstFolder = null, bool? dontOptimize = null, string storage = null);
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -10267,7 +10267,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutPrivilegesWithHttpInfo (string name, DocumentPrivilege privileges, string storage = null, string folder = null);
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -10281,7 +10281,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutPsInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -10764,7 +10764,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of StrikeOutAnnotationResponse</returns>
         ApiResponse<StrikeOutAnnotationResponse> PutStrikeOutAnnotationWithHttpInfo (string name, string annotationId, StrikeOutAnnotation annotation, string storage = null, string folder = null);
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -10786,7 +10786,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutSvgInStorageToPdf (string name, string srcPath, bool? adjustPageSize = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -10836,7 +10836,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutTableWithHttpInfo (string name, string tableId, Table table, string storage = null, string folder = null);
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -10850,7 +10850,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutTeXInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11006,7 +11006,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of FieldsResponse</returns>
         ApiResponse<FieldsResponse> PutUpdateFieldsWithHttpInfo (string name, Fields fields, string storage = null, string folder = null);
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage. 
+        /// Convert web page to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11027,7 +11027,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutWebInStorageToPdf (string name, string url, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage. 
+        /// Convert web page to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11099,7 +11099,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutXfaPdfInStorageToAcroFormWithHttpInfo (string name, string outPath, string folder = null, string storage = null);
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11114,7 +11114,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutXmlInStorageToPdf (string name, string srcPath, string xslFilePath = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11128,7 +11128,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutXmlInStorageToPdfWithHttpInfo (string name, string srcPath, string xslFilePath = null, string dstFolder = null, string storage = null);
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11142,7 +11142,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutXpsInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11155,7 +11155,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>ApiResponse of AsposeResponse</returns>
         ApiResponse<AsposeResponse> PutXpsInStorageToPdfWithHttpInfo (string name, string srcPath, string dstFolder = null, string storage = null);
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11169,7 +11169,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         AsposeResponse PutXslFoInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -11930,7 +11930,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> DownloadFileAsyncWithHttpInfo (string path, string storageName = null, string versionId = null);
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -11942,7 +11942,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetApsInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13133,7 +13133,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetDownloadDocumentAttachmentByIndexAsyncWithHttpInfo (string name, int? attachmentIndex, string storage = null, string folder = null);
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13145,7 +13145,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetEpubInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13437,7 +13437,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (HighlightAnnotationResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<HighlightAnnotationResponse>> GetHighlightAnnotationAsyncWithHttpInfo (string name, string annotationId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13457,7 +13457,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetHtmlInStorageToPdfAsync (string srcPath, string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13737,7 +13737,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetImportFieldsFromXfdfInStorageAsyncWithHttpInfo (string name, string xfdfFilePath, string storage = null, string folder = null);
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13751,7 +13751,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetImportFieldsFromXmlInStorageAsync (string name, string xmlFilePath, string storage = null, string folder = null);
 
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13872,7 +13872,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (ListBoxFieldResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<ListBoxFieldResponse>> GetListBoxFieldAsyncWithHttpInfo (string name, string fieldName, string storage = null, string folder = null);
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13884,7 +13884,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetMarkdownInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13895,7 +13895,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetMarkdownInStorageToPdfAsyncWithHttpInfo (string srcPath, string storage = null);
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -13913,7 +13913,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetMhtInStorageToPdfAsync (string srcPath, double? height = null, double? width = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -15089,7 +15089,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (DocumentPagesResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<DocumentPagesResponse>> GetPagesAsyncWithHttpInfo (string name, string storage = null, string folder = null);
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -15101,7 +15101,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetPclInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -15112,7 +15112,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPclInStorageToPdfAsyncWithHttpInfo (string srcPath, string storage = null);
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -15125,7 +15125,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetPdfAInStorageToPdfAsync (string srcPath, bool? dontOptimize = null, string storage = null);
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -15735,7 +15735,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (PopupAnnotationResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<PopupAnnotationResponse>> GetPopupAnnotationAsyncWithHttpInfo (string name, string annotationId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -15747,7 +15747,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetPsInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16082,7 +16082,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (StrikeOutAnnotationResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<StrikeOutAnnotationResponse>> GetStrikeOutAnnotationAsyncWithHttpInfo (string name, string annotationId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16102,7 +16102,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetSvgInStorageToPdfAsync (string srcPath, bool? adjustPageSize = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16148,7 +16148,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (TableRecognizedResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<TableRecognizedResponse>> GetTableAsyncWithHttpInfo (string name, string tableId, string storage = null, string folder = null);
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16160,7 +16160,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetTeXInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16318,7 +16318,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (SignatureVerifyResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<SignatureVerifyResponse>> GetVerifySignatureAsyncWithHttpInfo (string name, string signName, string storage = null, string folder = null);
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response. 
+        /// Convert web page to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16337,7 +16337,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetWebInStorageToPdfAsync (string url, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null);
 
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response. 
+        /// Convert web page to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16405,7 +16405,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetXfaPdfInStorageToAcroFormAsyncWithHttpInfo (string name, string folder = null, string storage = null);
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16418,7 +16418,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetXmlInStorageToPdfAsync (string srcPath, string xslFilePath = null, string storage = null);
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16484,7 +16484,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetXmpMetadataXmlAsyncWithHttpInfo (string name, string folder = null, string storage = null, string passBase64 = null);
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16496,7 +16496,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetXpsInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16507,7 +16507,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
         System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetXpsInStorageToPdfAsyncWithHttpInfo (string srcPath, string storage = null);
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -16519,7 +16519,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> GetXslFoInStorageToPdfAsync (string srcPath, string storage = null);
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -17356,7 +17356,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostFlattenDocumentAsyncWithHttpInfo (string name, bool? updateAppearances = null, bool? callEvents = null, bool? hideButtons = null, string storage = null, string folder = null);
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -17374,7 +17374,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<System.IO.Stream> PostHtmlToPdfAsync (string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null);
 
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
         /// </summary>
         /// <remarks>
         /// 
@@ -18783,7 +18783,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutAnnotationsFlattenAsyncWithHttpInfo (string name, int? startPage = null, int? endPage = null, List<AnnotationType> annotationTypes = null, string storage = null, string folder = null);
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -18797,7 +18797,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutApsInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19135,7 +19135,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutEncryptDocumentAsyncWithHttpInfo (string outPath, string userPassword, string ownerPassword, string cryptoAlgorithm, List<PermissionsFlags> permissionsFlags = null, bool? usePdf20 = null, string storage = null, System.IO.Stream file = null);
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19149,7 +19149,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutEpubInStorageToPdfAsync (string name, string srcPath, string storage = null, string dstFolder = null);
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19384,7 +19384,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (HighlightAnnotationResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<HighlightAnnotationResponse>> PutHighlightAnnotationAsyncWithHttpInfo (string name, string annotationId, HighlightAnnotation annotation, string storage = null, string folder = null);
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19406,7 +19406,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutHtmlInStorageToPdfAsync (string name, string srcPath, string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19559,7 +19559,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutImageExtractAsTiffAsyncWithHttpInfo (string name, string imageId, int? width = null, int? height = null, string storage = null, string folder = null, string destFolder = null);
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19573,7 +19573,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutImageInStorageToPdfAsync (string name, ImageTemplatesRequest imageTemplates, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19915,7 +19915,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (ListBoxFieldResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<ListBoxFieldResponse>> PutListBoxFieldAsyncWithHttpInfo (string name, string fieldName, ListBoxField field, string storage = null, string folder = null);
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19929,7 +19929,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutMarkdownInStorageToPdfAsync (string name, string srcPath, string storage = null, string dstFolder = null);
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19969,7 +19969,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (DocumentResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<DocumentResponse>> PutMergeDocumentsAsyncWithHttpInfo (string name, MergeDocuments mergeDocuments, string storage = null, string folder = null);
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -19989,7 +19989,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutMhtInStorageToPdfAsync (string name, string srcPath, double? height = null, double? width = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -20276,7 +20276,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPageConvertToTiffAsyncWithHttpInfo (string name, int? pageNumber, string outPath, int? width = null, int? height = null, string folder = null, string storage = null, string password = null);
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -20290,7 +20290,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutPclInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -20303,7 +20303,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPclInStorageToPdfAsyncWithHttpInfo (string name, string srcPath, string dstFolder = null, string storage = null);
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -20318,7 +20318,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutPdfAInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, bool? dontOptimize = null, string storage = null);
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -21458,7 +21458,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPrivilegesAsyncWithHttpInfo (string name, DocumentPrivilege privileges, string storage = null, string folder = null);
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -21472,7 +21472,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutPsInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -21955,7 +21955,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (StrikeOutAnnotationResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<StrikeOutAnnotationResponse>> PutStrikeOutAnnotationAsyncWithHttpInfo (string name, string annotationId, StrikeOutAnnotation annotation, string storage = null, string folder = null);
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -21977,7 +21977,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutSvgInStorageToPdfAsync (string name, string srcPath, bool? adjustPageSize = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22027,7 +22027,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutTableAsyncWithHttpInfo (string name, string tableId, Table table, string storage = null, string folder = null);
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22041,7 +22041,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutTeXInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22197,7 +22197,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (FieldsResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<FieldsResponse>> PutUpdateFieldsAsyncWithHttpInfo (string name, Fields fields, string storage = null, string folder = null);
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage. 
+        /// Convert web page to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22218,7 +22218,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutWebInStorageToPdfAsync (string name, string url, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage. 
+        /// Convert web page to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22290,7 +22290,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutXfaPdfInStorageToAcroFormAsyncWithHttpInfo (string name, string outPath, string folder = null, string storage = null);
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22305,7 +22305,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutXmlInStorageToPdfAsync (string name, string srcPath, string xslFilePath = null, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22319,7 +22319,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutXmlInStorageToPdfAsyncWithHttpInfo (string name, string srcPath, string xslFilePath = null, string dstFolder = null, string storage = null);
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22333,7 +22333,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutXpsInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22346,7 +22346,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutXpsInStorageToPdfAsyncWithHttpInfo (string name, string srcPath, string dstFolder = null, string storage = null);
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -22360,7 +22360,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         System.Threading.Tasks.Task<AsposeResponse> PutXslFoInStorageToPdfAsync (string name, string srcPath, string dstFolder = null, string storage = null);
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
         /// </summary>
         /// <remarks>
         /// 
@@ -26526,7 +26526,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -26539,7 +26539,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -26595,7 +26595,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -26609,7 +26609,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert APS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -33432,7 +33432,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.epub)</param>
@@ -33445,7 +33445,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.epub)</param>
@@ -33501,7 +33501,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.epub)</param>
@@ -33515,7 +33515,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.epub)</param>
@@ -35202,7 +35202,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (HighlightAnnotationResponse) ApiClient.Deserialize(localVarResponse, typeof(HighlightAnnotationResponse)));
         }
 
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.zip)</param>
@@ -35223,7 +35223,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.zip)</param>
@@ -35295,7 +35295,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.zip)</param>
@@ -35317,7 +35317,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert HTML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.zip)</param>
@@ -36846,7 +36846,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -36861,7 +36861,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -36924,7 +36924,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -36940,7 +36940,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Import from XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Import from XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -37626,7 +37626,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (ListBoxFieldResponse) ApiClient.Deserialize(localVarResponse, typeof(ListBoxFieldResponse)));
         }
 
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.md)</param>
@@ -37639,7 +37639,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.md)</param>
@@ -37695,7 +37695,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.md)</param>
@@ -37709,7 +37709,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MD file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.md)</param>
@@ -37764,7 +37764,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.mht)</param>
@@ -37783,7 +37783,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.mht)</param>
@@ -37851,7 +37851,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.mht)</param>
@@ -37871,7 +37871,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert MHT file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.mht)</param>
@@ -44520,7 +44520,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (DocumentPagesResponse) ApiClient.Deserialize(localVarResponse, typeof(DocumentPagesResponse)));
         }
 
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pcl)</param>
@@ -44533,7 +44533,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pcl)</param>
@@ -44589,7 +44589,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pcl)</param>
@@ -44603,7 +44603,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PCL file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pcl)</param>
@@ -44658,7 +44658,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pdf)</param>
@@ -44672,7 +44672,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pdf)</param>
@@ -44730,7 +44730,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pdf)</param>
@@ -44745,7 +44745,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.pdf)</param>
@@ -47868,7 +47868,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (PopupAnnotationResponse) ApiClient.Deserialize(localVarResponse, typeof(PopupAnnotationResponse)));
         }
 
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.ps)</param>
@@ -47881,7 +47881,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.ps)</param>
@@ -47937,7 +47937,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.ps)</param>
@@ -47951,7 +47951,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert PS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.ps)</param>
@@ -49878,7 +49878,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (StrikeOutAnnotationResponse) ApiClient.Deserialize(localVarResponse, typeof(StrikeOutAnnotationResponse)));
         }
 
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.svg)</param>
@@ -49899,7 +49899,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.svg)</param>
@@ -49971,7 +49971,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.svg)</param>
@@ -49993,7 +49993,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert SVG file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.svg)</param>
@@ -50220,7 +50220,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (TableRecognizedResponse) ApiClient.Deserialize(localVarResponse, typeof(TableRecognizedResponse)));
         }
 
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.tex)</param>
@@ -50233,7 +50233,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.tex)</param>
@@ -50289,7 +50289,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.tex)</param>
@@ -50303,7 +50303,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert TeX file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.tex)</param>
@@ -51198,7 +51198,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (SignatureVerifyResponse) ApiClient.Deserialize(localVarResponse, typeof(SignatureVerifyResponse)));
         }
 
-        /// Convert web page to PDF format and return resulting file in response.  
+        /// Convert web page to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="url">Source url</param>
@@ -51218,7 +51218,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response.  
+        /// Convert web page to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="url">Source url</param>
@@ -51288,7 +51288,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response.  
+        /// Convert web page to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="url">Source url</param>
@@ -51309,7 +51309,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert web page to PDF format and return resulting file in response.  
+        /// Convert web page to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="url">Source url</param>
@@ -51666,7 +51666,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xml)</param>
@@ -51680,7 +51680,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xml)</param>
@@ -51738,7 +51738,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xml)</param>
@@ -51753,7 +51753,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XML file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xml)</param>
@@ -52110,7 +52110,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -52123,7 +52123,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -52179,7 +52179,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -52193,7 +52193,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XPS file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xps)</param>
@@ -52248,7 +52248,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (System.IO.Stream) ApiClient.Deserialize(localVarResponse, typeof(System.IO.Stream)));
         }
 
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xslfo)</param>
@@ -52261,7 +52261,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xslfo)</param>
@@ -52317,7 +52317,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xslfo)</param>
@@ -52331,7 +52331,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response.  
+        /// Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="srcPath">Full source filename (ex. /folder1/folder2/template.xslfo)</param>
@@ -57258,7 +57258,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.  
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="htmlFileName">Name of HTML file in ZIP. (optional)</param>
@@ -57277,7 +57277,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.  
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="htmlFileName">Name of HTML file in ZIP. (optional)</param>
@@ -57342,7 +57342,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.  
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="htmlFileName">Name of HTML file in ZIP. (optional)</param>
@@ -57362,7 +57362,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.  
+        /// Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="htmlFileName">Name of HTML file in ZIP. (optional)</param>
@@ -65908,7 +65908,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -65923,7 +65923,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -65986,7 +65986,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -66002,7 +66002,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -68014,7 +68014,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -68029,7 +68029,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -68092,7 +68092,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -68108,7 +68108,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -69490,7 +69490,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (HighlightAnnotationResponse) ApiClient.Deserialize(localVarResponse, typeof(HighlightAnnotationResponse)));
         }
 
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -69513,7 +69513,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -69592,7 +69592,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -69616,7 +69616,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -70390,7 +70390,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -70405,7 +70405,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -70475,7 +70475,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -70491,7 +70491,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert image file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert image file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72452,7 +72452,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (ListBoxFieldResponse) ApiClient.Deserialize(localVarResponse, typeof(ListBoxFieldResponse)));
         }
 
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72467,7 +72467,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72530,7 +72530,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72546,7 +72546,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72778,7 +72778,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (DocumentResponse) ApiClient.Deserialize(localVarResponse, typeof(DocumentResponse)));
         }
 
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72799,7 +72799,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72874,7 +72874,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -72896,7 +72896,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74450,7 +74450,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74465,7 +74465,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74528,7 +74528,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74544,7 +74544,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74606,7 +74606,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74622,7 +74622,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74687,7 +74687,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -74704,7 +74704,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -80560,7 +80560,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -80575,7 +80575,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -80638,7 +80638,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -80654,7 +80654,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83530,7 +83530,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (StrikeOutAnnotationResponse) ApiClient.Deserialize(localVarResponse, typeof(StrikeOutAnnotationResponse)));
         }
 
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83553,7 +83553,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83632,7 +83632,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83656,7 +83656,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83916,7 +83916,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83931,7 +83931,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -83994,7 +83994,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -84010,7 +84010,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -84970,7 +84970,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (FieldsResponse) ApiClient.Deserialize(localVarResponse, typeof(FieldsResponse)));
         }
 
-        /// Convert web page to PDF format and upload resulting file to storage.  
+        /// Convert web page to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -84992,7 +84992,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage.  
+        /// Convert web page to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85069,7 +85069,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage.  
+        /// Convert web page to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85092,7 +85092,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert web page to PDF format and upload resulting file to storage.  
+        /// Convert web page to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85468,7 +85468,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85484,7 +85484,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85549,7 +85549,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85566,7 +85566,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85630,7 +85630,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85645,7 +85645,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85708,7 +85708,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85724,7 +85724,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85786,7 +85786,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
                 (AsposeResponse) ApiClient.Deserialize(localVarResponse, typeof(AsposeResponse)));
         }
 
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85801,7 +85801,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85864,7 +85864,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
@@ -85880,7 +85880,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         }
 
         /// <summary>
-        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.  
+        /// Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>

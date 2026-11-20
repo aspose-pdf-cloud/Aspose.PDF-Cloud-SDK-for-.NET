@@ -3990,7 +3990,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>System.IO.Stream</returns>
-        System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to DOC format and returns resulting file in response content.
@@ -4012,7 +4012,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>ApiResponse of System.IO.Stream</returns>
-        ApiResponse<System.IO.Stream> GetPdfInStorageToDocWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        ApiResponse<System.IO.Stream> GetPdfInStorageToDocWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
         /// <summary>
         /// Converts PDF document (located on storage) to EPUB format and returns resulting file in response content
         /// </summary>
@@ -4313,7 +4313,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>System.IO.Stream</returns>
-        System.IO.Stream GetPdfInStorageToTiff (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        System.IO.Stream GetPdfInStorageToTiff (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to TIFF format and returns resulting file in response content
@@ -4341,7 +4341,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>ApiResponse of System.IO.Stream</returns>
-        ApiResponse<System.IO.Stream> GetPdfInStorageToTiffWithHttpInfo (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        ApiResponse<System.IO.Stream> GetPdfInStorageToTiffWithHttpInfo (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
         /// <summary>
         /// Converts PDF document (located on storage) to XLS format and returns resulting file in response content
         /// </summary>
@@ -5902,7 +5902,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        AsposeResponse PostDocumentPagesResize (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null);
+        AsposeResponse PostDocumentPagesResize (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null);
 
         /// <summary>
         /// Rsize PDF document.
@@ -5919,7 +5919,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        ApiResponse<AsposeResponse> PostDocumentPagesResizeWithHttpInfo (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null);
+        ApiResponse<AsposeResponse> PostDocumentPagesResizeWithHttpInfo (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null);
         /// <summary>
         /// Rotate PDF document.
         /// </summary>
@@ -6298,7 +6298,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        AsposeResponse PostInsertImage (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
+        AsposeResponse PostInsertImage (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
 
         /// <summary>
         /// Insert image to document page.
@@ -6318,7 +6318,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        ApiResponse<AsposeResponse> PostInsertImageWithHttpInfo (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
+        ApiResponse<AsposeResponse> PostInsertImageWithHttpInfo (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
         /// <summary>
         /// Add document listbox fields.
         /// </summary>
@@ -7429,12 +7429,12 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </remarks>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>SplitResultResponse</returns>
-        SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null);
+        SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null);
 
         /// <summary>
         /// Split document into ranges.
@@ -7444,12 +7444,12 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </remarks>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>ApiResponse of SplitResultResponse</returns>
-        ApiResponse<SplitResultResponse> PostSplitRangePdfDocumentWithHttpInfo (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null);
+        ApiResponse<SplitResultResponse> PostSplitRangePdfDocumentWithHttpInfo (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null);
         /// <summary>
         /// Add document text box fields.
         /// </summary>
@@ -9185,7 +9185,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
+        AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
 
         /// <summary>
         /// Converts PDF document (in request content) to DOC format and uploads resulting file to storage.
@@ -9207,7 +9207,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        ApiResponse<AsposeResponse> PutPdfInRequestToDocWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
+        ApiResponse<AsposeResponse> PutPdfInRequestToDocWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
         /// <summary>
         /// Converts PDF document (in request content) to EPUB format and uploads resulting file to storage.
         /// </summary>
@@ -9483,7 +9483,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        AsposeResponse PutPdfInRequestToTiff (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
+        AsposeResponse PutPdfInRequestToTiff (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
 
         /// <summary>
         /// Converts PDF document (in request content) to TIFF format and uploads resulting file to storage.
@@ -9511,7 +9511,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        ApiResponse<AsposeResponse> PutPdfInRequestToTiffWithHttpInfo (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
+        ApiResponse<AsposeResponse> PutPdfInRequestToTiffWithHttpInfo (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
         /// <summary>
         /// Converts PDF document (in request content) to XLS format and uploads resulting file to storage.
         /// </summary>
@@ -9680,7 +9680,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>AsposeResponse</returns>
-        AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to DOC format and uploads resulting file to storage.
@@ -9703,7 +9703,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        ApiResponse<AsposeResponse> PutPdfInStorageToDocWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        ApiResponse<AsposeResponse> PutPdfInStorageToDocWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
         /// <summary>
         /// Converts PDF document (located on storage) to EPUB format and uploads resulting file to storage
         /// </summary>
@@ -9994,7 +9994,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        AsposeResponse PutPdfInStorageToTiff (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        AsposeResponse PutPdfInStorageToTiff (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to TIFF format and uploads resulting file to storage
@@ -10023,7 +10023,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        ApiResponse<AsposeResponse> PutPdfInStorageToTiffWithHttpInfo (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        ApiResponse<AsposeResponse> PutPdfInStorageToTiffWithHttpInfo (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
         /// <summary>
         /// Converts PDF document (located on storage) to XLS format and uploads resulting file to storage
         /// </summary>
@@ -15181,7 +15181,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of System.IO.Stream</returns>
-        System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToDocAsync (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToDocAsync (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to DOC format and returns resulting file in response content.
@@ -15203,7 +15203,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
-        System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToDocAsyncWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToDocAsyncWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
         /// <summary>
         /// Converts PDF document (located on storage) to EPUB format and returns resulting file in response content
         /// </summary>
@@ -15504,7 +15504,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of System.IO.Stream</returns>
-        System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToTiffAsync (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToTiffAsync (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to TIFF format and returns resulting file in response content
@@ -15532,7 +15532,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
-        System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToTiffAsyncWithHttpInfo (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToTiffAsyncWithHttpInfo (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
         /// <summary>
         /// Converts PDF document (located on storage) to XLS format and returns resulting file in response content
         /// </summary>
@@ -17093,7 +17093,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        System.Threading.Tasks.Task<AsposeResponse> PostDocumentPagesResizeAsync (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null);
+        System.Threading.Tasks.Task<AsposeResponse> PostDocumentPagesResizeAsync (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null);
 
         /// <summary>
         /// Rsize PDF document.
@@ -17110,7 +17110,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostDocumentPagesResizeAsyncWithHttpInfo (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null);
+        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostDocumentPagesResizeAsyncWithHttpInfo (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null);
         /// <summary>
         /// Rotate PDF document.
         /// </summary>
@@ -17489,7 +17489,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        System.Threading.Tasks.Task<AsposeResponse> PostInsertImageAsync (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
+        System.Threading.Tasks.Task<AsposeResponse> PostInsertImageAsync (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
 
         /// <summary>
         /// Insert image to document page.
@@ -17509,7 +17509,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostInsertImageAsyncWithHttpInfo (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
+        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostInsertImageAsyncWithHttpInfo (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null);
         /// <summary>
         /// Add document listbox fields.
         /// </summary>
@@ -18620,12 +18620,12 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </remarks>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of SplitResultResponse</returns>
-        System.Threading.Tasks.Task<SplitResultResponse> PostSplitRangePdfDocumentAsync (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null);
+        System.Threading.Tasks.Task<SplitResultResponse> PostSplitRangePdfDocumentAsync (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null);
 
         /// <summary>
         /// Split document into ranges.
@@ -18635,12 +18635,12 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </remarks>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of ApiResponse (SplitResultResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<SplitResultResponse>> PostSplitRangePdfDocumentAsyncWithHttpInfo (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null);
+        System.Threading.Tasks.Task<ApiResponse<SplitResultResponse>> PostSplitRangePdfDocumentAsyncWithHttpInfo (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null);
         /// <summary>
         /// Add document text box fields.
         /// </summary>
@@ -20376,7 +20376,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToDocAsync (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
+        System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToDocAsync (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
 
         /// <summary>
         /// Converts PDF document (in request content) to DOC format and uploads resulting file to storage.
@@ -20398,7 +20398,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToDocAsyncWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
+        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToDocAsyncWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null);
         /// <summary>
         /// Converts PDF document (in request content) to EPUB format and uploads resulting file to storage.
         /// </summary>
@@ -20674,7 +20674,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToTiffAsync (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
+        System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToTiffAsync (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
 
         /// <summary>
         /// Converts PDF document (in request content) to TIFF format and uploads resulting file to storage.
@@ -20702,7 +20702,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToTiffAsyncWithHttpInfo (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
+        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToTiffAsyncWithHttpInfo (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null);
         /// <summary>
         /// Converts PDF document (in request content) to XLS format and uploads resulting file to storage.
         /// </summary>
@@ -20871,7 +20871,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToDocAsync (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToDocAsync (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to DOC format and uploads resulting file to storage.
@@ -20894,7 +20894,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToDocAsyncWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
+        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToDocAsyncWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null);
         /// <summary>
         /// Converts PDF document (located on storage) to EPUB format and uploads resulting file to storage
         /// </summary>
@@ -21185,7 +21185,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToTiffAsync (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToTiffAsync (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
 
         /// <summary>
         /// Converts PDF document (located on storage) to TIFF format and uploads resulting file to storage
@@ -21214,7 +21214,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToTiffAsyncWithHttpInfo (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
+        System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToTiffAsyncWithHttpInfo (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null);
         /// <summary>
         /// Converts PDF document (located on storage) to XLS format and uploads resulting file to storage
         /// </summary>
@@ -44962,7 +44962,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>System.IO.Stream</returns>
-        public System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
              ApiResponse<System.IO.Stream> localVarResponse = GetPdfInStorageToDocWithHttpInfo(name, addReturnToLineEnd, format, imageResolutionX, imageResolutionY, maxDistanceBetweenTextLines, mode, recognizeBullets, relativeHorizontalProximity, folder, storage, password);
              return localVarResponse.Data;
@@ -44985,7 +44985,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>ApiResponse of System.IO.Stream</returns>
-        public ApiResponse< System.IO.Stream > GetPdfInStorageToDocWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public ApiResponse< System.IO.Stream > GetPdfInStorageToDocWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -45061,7 +45061,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of System.IO.Stream</returns>
-        public async System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToDocAsync (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public async System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToDocAsync (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
              ApiResponse<System.IO.Stream> localVarResponse = await GetPdfInStorageToDocAsyncWithHttpInfo(name, addReturnToLineEnd, format, imageResolutionX, imageResolutionY, maxDistanceBetweenTextLines, mode, recognizeBullets, relativeHorizontalProximity, folder, storage, password);
              return localVarResponse.Data;
@@ -45085,7 +45085,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToDocAsyncWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public async System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToDocAsyncWithHttpInfo (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -46552,7 +46552,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>System.IO.Stream</returns>
-        public System.IO.Stream GetPdfInStorageToTiff (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public System.IO.Stream GetPdfInStorageToTiff (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
              ApiResponse<System.IO.Stream> localVarResponse = GetPdfInStorageToTiffWithHttpInfo(name, brightness, compression, colorDepth, leftMargin, rightMargin, topMargin, bottomMargin, orientation, skipBlankPages, width, height, xResolution, yResolution, pageIndex, pageCount, folder, storage);
              return localVarResponse.Data;
@@ -46581,7 +46581,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>ApiResponse of System.IO.Stream</returns>
-        public ApiResponse< System.IO.Stream > GetPdfInStorageToTiffWithHttpInfo (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public ApiResponse< System.IO.Stream > GetPdfInStorageToTiffWithHttpInfo (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -46669,7 +46669,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of System.IO.Stream</returns>
-        public async System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToTiffAsync (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public async System.Threading.Tasks.Task<System.IO.Stream> GetPdfInStorageToTiffAsync (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
              ApiResponse<System.IO.Stream> localVarResponse = await GetPdfInStorageToTiffAsyncWithHttpInfo(name, brightness, compression, colorDepth, leftMargin, rightMargin, topMargin, bottomMargin, orientation, skipBlankPages, width, height, xResolution, yResolution, pageIndex, pageCount, folder, storage);
              return localVarResponse.Data;
@@ -46699,7 +46699,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of ApiResponse (System.IO.Stream)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToTiffAsyncWithHttpInfo (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public async System.Threading.Tasks.Task<ApiResponse<System.IO.Stream>> GetPdfInStorageToTiffAsyncWithHttpInfo (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -55663,7 +55663,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        public AsposeResponse PostDocumentPagesResize (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null)
+        public AsposeResponse PostDocumentPagesResize (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = PostDocumentPagesResizeWithHttpInfo(name, height, width, pages, storage, folder, password);
              return localVarResponse.Data;
@@ -55681,7 +55681,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        public ApiResponse< AsposeResponse > PostDocumentPagesResizeWithHttpInfo (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null)
+        public ApiResponse< AsposeResponse > PostDocumentPagesResizeWithHttpInfo (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -55756,7 +55756,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        public async System.Threading.Tasks.Task<AsposeResponse> PostDocumentPagesResizeAsync (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null)
+        public async System.Threading.Tasks.Task<AsposeResponse> PostDocumentPagesResizeAsync (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = await PostDocumentPagesResizeAsyncWithHttpInfo(name, height, width, pages, storage, folder, password);
              return localVarResponse.Data;
@@ -55775,7 +55775,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostDocumentPagesResizeAsyncWithHttpInfo (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null)
+        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostDocumentPagesResizeAsyncWithHttpInfo (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -57890,7 +57890,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        public AsposeResponse PostInsertImage (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
+        public AsposeResponse PostInsertImage (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = PostInsertImageWithHttpInfo(name, pageNumber, llx, lly, urx, ury, imageFilePath, storage, folder, image);
              return localVarResponse.Data;
@@ -57911,7 +57911,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        public ApiResponse< AsposeResponse > PostInsertImageWithHttpInfo (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
+        public ApiResponse< AsposeResponse > PostInsertImageWithHttpInfo (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -57998,7 +57998,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        public async System.Threading.Tasks.Task<AsposeResponse> PostInsertImageAsync (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
+        public async System.Threading.Tasks.Task<AsposeResponse> PostInsertImageAsync (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = await PostInsertImageAsyncWithHttpInfo(name, pageNumber, llx, lly, urx, ury, imageFilePath, storage, folder, image);
              return localVarResponse.Data;
@@ -58020,7 +58020,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="image">Image file. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostInsertImageAsyncWithHttpInfo (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
+        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PostInsertImageAsyncWithHttpInfo (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -64896,12 +64896,12 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>SplitResultResponse</returns>
-        public SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null)
+        public SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null)
         {
              ApiResponse<SplitResultResponse> localVarResponse = PostSplitRangePdfDocumentWithHttpInfo(name, options, storage, folder, password);
              return localVarResponse.Data;
@@ -64912,16 +64912,19 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>ApiResponse of SplitResultResponse</returns>
-        public ApiResponse< SplitResultResponse > PostSplitRangePdfDocumentWithHttpInfo (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null)
+        public ApiResponse< SplitResultResponse > PostSplitRangePdfDocumentWithHttpInfo (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
                 throw new ApiException(400, "Missing required parameter 'name' when calling PdfApi->PostSplitRangePdfDocument");
+            // verify the required parameter 'options' is set
+            if (options == null)
+                throw new ApiException(400, "Missing required parameter 'options' when calling PdfApi->PostSplitRangePdfDocument");
 
             var localVarPath = "/pdf/{name}/splitrangepdf";
             var localVarPathParams = new Dictionary<String, String>();
@@ -64981,12 +64984,12 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of SplitResultResponse</returns>
-        public async System.Threading.Tasks.Task<SplitResultResponse> PostSplitRangePdfDocumentAsync (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null)
+        public async System.Threading.Tasks.Task<SplitResultResponse> PostSplitRangePdfDocumentAsync (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null)
         {
              ApiResponse<SplitResultResponse> localVarResponse = await PostSplitRangePdfDocumentAsyncWithHttpInfo(name, options, storage, folder, password);
              return localVarResponse.Data;
@@ -64998,16 +65001,19 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// </summary>
         /// <exception cref="Aspose.Pdf.Cloud.Sdk.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The document name.</param>
-        /// <param name="options">The splitting options. (optional)</param>
+        /// <param name="options">The splitting options.</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="password">Base64 encoded password. (optional)</param>
         /// <returns>Task of ApiResponse (SplitResultResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<SplitResultResponse>> PostSplitRangePdfDocumentAsyncWithHttpInfo (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null)
+        public async System.Threading.Tasks.Task<ApiResponse<SplitResultResponse>> PostSplitRangePdfDocumentAsyncWithHttpInfo (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
                 throw new ApiException(400, "Missing required parameter 'name' when calling PdfApi->PostSplitRangePdfDocument");
+            // verify the required parameter 'options' is set
+            if (options == null)
+                throw new ApiException(400, "Missing required parameter 'options' when calling PdfApi->PostSplitRangePdfDocument");
 
             var localVarPath = "/pdf/{name}/splitrangepdf";
             var localVarPathParams = new Dictionary<String, String>();
@@ -74922,7 +74928,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        public AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
+        public AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = PutPdfInRequestToDocWithHttpInfo(outPath, addReturnToLineEnd, format, imageResolutionX, imageResolutionY, maxDistanceBetweenTextLines, mode, recognizeBullets, relativeHorizontalProximity, storage, password, file);
              return localVarResponse.Data;
@@ -74945,7 +74951,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        public ApiResponse< AsposeResponse > PutPdfInRequestToDocWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
+        public ApiResponse< AsposeResponse > PutPdfInRequestToDocWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
         {
             // verify the required parameter 'outPath' is set
             if (outPath == null)
@@ -75021,7 +75027,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToDocAsync (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
+        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToDocAsync (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = await PutPdfInRequestToDocAsyncWithHttpInfo(outPath, addReturnToLineEnd, format, imageResolutionX, imageResolutionY, maxDistanceBetweenTextLines, mode, recognizeBullets, relativeHorizontalProximity, storage, password, file);
              return localVarResponse.Data;
@@ -75045,7 +75051,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="password">The password (Base64). (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToDocAsyncWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
+        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToDocAsyncWithHttpInfo (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
         {
             // verify the required parameter 'outPath' is set
             if (outPath == null)
@@ -76368,7 +76374,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        public AsposeResponse PutPdfInRequestToTiff (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
+        public AsposeResponse PutPdfInRequestToTiff (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = PutPdfInRequestToTiffWithHttpInfo(outPath, brightness, compression, colorDepth, leftMargin, rightMargin, topMargin, bottomMargin, orientation, skipBlankPages, width, height, xResolution, yResolution, pageIndex, pageCount, storage, file);
              return localVarResponse.Data;
@@ -76397,7 +76403,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        public ApiResponse< AsposeResponse > PutPdfInRequestToTiffWithHttpInfo (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
+        public ApiResponse< AsposeResponse > PutPdfInRequestToTiffWithHttpInfo (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
         {
             // verify the required parameter 'outPath' is set
             if (outPath == null)
@@ -76485,7 +76491,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToTiffAsync (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
+        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInRequestToTiffAsync (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = await PutPdfInRequestToTiffAsyncWithHttpInfo(outPath, brightness, compression, colorDepth, leftMargin, rightMargin, topMargin, bottomMargin, orientation, skipBlankPages, width, height, xResolution, yResolution, pageIndex, pageCount, storage, file);
              return localVarResponse.Data;
@@ -76515,7 +76521,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="file">A file to be converted. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToTiffAsyncWithHttpInfo (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
+        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInRequestToTiffAsyncWithHttpInfo (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
         {
             // verify the required parameter 'outPath' is set
             if (outPath == null)
@@ -77389,7 +77395,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>AsposeResponse</returns>
-        public AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = PutPdfInStorageToDocWithHttpInfo(name, outPath, addReturnToLineEnd, format, imageResolutionX, imageResolutionY, maxDistanceBetweenTextLines, mode, recognizeBullets, relativeHorizontalProximity, folder, storage, password);
              return localVarResponse.Data;
@@ -77413,7 +77419,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        public ApiResponse< AsposeResponse > PutPdfInStorageToDocWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public ApiResponse< AsposeResponse > PutPdfInStorageToDocWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -77494,7 +77500,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToDocAsync (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToDocAsync (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = await PutPdfInStorageToDocAsyncWithHttpInfo(name, outPath, addReturnToLineEnd, format, imageResolutionX, imageResolutionY, maxDistanceBetweenTextLines, mode, recognizeBullets, relativeHorizontalProximity, folder, storage, password);
              return localVarResponse.Data;
@@ -77519,7 +77525,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="storage">The document storage. (optional)</param>
         /// <param name="password">The password (Base64). (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToDocAsyncWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToDocAsyncWithHttpInfo (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -78931,7 +78937,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>AsposeResponse</returns>
-        public AsposeResponse PutPdfInStorageToTiff (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public AsposeResponse PutPdfInStorageToTiff (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = PutPdfInStorageToTiffWithHttpInfo(name, outPath, brightness, compression, colorDepth, leftMargin, rightMargin, topMargin, bottomMargin, orientation, skipBlankPages, width, height, xResolution, yResolution, pageIndex, pageCount, folder, storage);
              return localVarResponse.Data;
@@ -78961,7 +78967,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>ApiResponse of AsposeResponse</returns>
-        public ApiResponse< AsposeResponse > PutPdfInStorageToTiffWithHttpInfo (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public ApiResponse< AsposeResponse > PutPdfInStorageToTiffWithHttpInfo (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)
@@ -79054,7 +79060,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of AsposeResponse</returns>
-        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToTiffAsync (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public async System.Threading.Tasks.Task<AsposeResponse> PutPdfInStorageToTiffAsync (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
              ApiResponse<AsposeResponse> localVarResponse = await PutPdfInStorageToTiffAsyncWithHttpInfo(name, outPath, brightness, compression, colorDepth, leftMargin, rightMargin, topMargin, bottomMargin, orientation, skipBlankPages, width, height, xResolution, yResolution, pageIndex, pageCount, folder, storage);
              return localVarResponse.Data;
@@ -79085,7 +79091,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Api
         /// <param name="folder">The document folder. (optional)</param>
         /// <param name="storage">The document storage. (optional)</param>
         /// <returns>Task of ApiResponse (AsposeResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToTiffAsyncWithHttpInfo (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+        public async System.Threading.Tasks.Task<ApiResponse<AsposeResponse>> PutPdfInStorageToTiffAsyncWithHttpInfo (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
         {
             // verify the required parameter 'name' is set
             if (name == null)

@@ -66,7 +66,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// <param name="SubsequentLinesIndent">Subsequent lines indent value.</param>
         /// <param name="VerticalAlignment">Vertical alignment for the text inside paragraph&#39;s rectangle</param>
         /// <param name="Lines">An array of text lines. (required)</param>
-        public Paragraph(LineSpacing LineSpacing = default(LineSpacing), WrapMode WrapMode = default(WrapMode), TextHorizontalAlignment HorizontalAlignment = default(TextHorizontalAlignment), double? LeftMargin = default(double?), double? RightMargin = default(double?), double? TopMargin = default(double?), double? BottomMargin = default(double?), Rectangle Rectangle = default(Rectangle), double? Rotation = default(double?), float? SubsequentLinesIndent = default(float?), VerticalAlignment VerticalAlignment = default(VerticalAlignment), List<TextLine> Lines = default(List<TextLine>))
+        public Paragraph(LineSpacing LineSpacing = default(LineSpacing), WrapMode WrapMode = default(WrapMode), TextHorizontalAlignment HorizontalAlignment = default(TextHorizontalAlignment), double? LeftMargin = default(double?), double? RightMargin = default(double?), double? TopMargin = default(double?), double? BottomMargin = default(double?), Rectangle Rectangle = default(Rectangle), double? Rotation = default(double?), double? SubsequentLinesIndent = default(double?), VerticalAlignment VerticalAlignment = default(VerticalAlignment), List<TextLine> Lines = default(List<TextLine>))
         {
             // to ensure "Lines" is required (not null)
             if (Lines == null)
@@ -158,7 +158,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// </summary>
         /// <value>Subsequent lines indent value.</value>
         [DataMember(Name="SubsequentLinesIndent", EmitDefaultValue=false)]
-        public float? SubsequentLinesIndent { get; set; }
+        public double? SubsequentLinesIndent { get; set; }
 
         /// <summary>
         /// Vertical alignment for the text inside paragraph&#39;s rectangle

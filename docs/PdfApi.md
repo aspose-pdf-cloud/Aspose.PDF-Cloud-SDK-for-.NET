@@ -4330,7 +4330,7 @@ Name | Type | Description  | Notes
 
 <a name="getpdfinstoragetodoc"></a>
 # **GetPdfInStorageToDoc**
-> System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+> System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
 
 Converts PDF document (located on storage) to DOC format and returns resulting file in response content.
 
@@ -4344,10 +4344,10 @@ Name | Type | Description  | Notes
  **format** | **string**| Allows to specify .doc or .docx file format. | [optional] 
  **imageResolutionX** | **int?**| Image resolution X. | [optional] 
  **imageResolutionY** | **int?**| Image resolution Y. | [optional] 
- **maxDistanceBetweenTextLines** | **float?**| Max distance between text lines. | [optional] 
+ **maxDistanceBetweenTextLines** | **double?**| Max distance between text lines. | [optional] 
  **mode** | **string**| Allows to control how a PDF document is converted into a word processing document. | [optional] 
  **recognizeBullets** | **bool?**| Recognize bullets. | [optional] 
- **relativeHorizontalProximity** | **float?**| Relative horizontal proximity. | [optional] 
+ **relativeHorizontalProximity** | **double?**| Relative horizontal proximity. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **password** | **string**| The password (Base64). | [optional] 
@@ -4610,7 +4610,7 @@ Name | Type | Description  | Notes
 
 <a name="getpdfinstoragetotiff"></a>
 # **GetPdfInStorageToTiff**
-> System.IO.Stream GetPdfInStorageToTiff (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+> System.IO.Stream GetPdfInStorageToTiff (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
 
 Converts PDF document (located on storage) to TIFF format and returns resulting file in response content
 
@@ -4620,7 +4620,7 @@ Converts PDF document (located on storage) to TIFF format and returns resulting 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
- **brightness** | **float?**| Image brightness. | [optional] 
+ **brightness** | **double?**| Image brightness. | [optional] 
  **compression** | **string**| Tiff compression. Possible values are: LZW, CCITT4, CCITT3, RLE, None. | [optional] 
  **colorDepth** | **string**| Image color depth. Possible valuse are: Default, Format8bpp, Format4bpp, Format1bpp. | [optional] 
  **leftMargin** | **int?**| Left image margin. | [optional] 
@@ -6166,7 +6166,7 @@ Name | Type | Description  | Notes
 
 <a name="postdocumentpagesresize"></a>
 # **PostDocumentPagesResize**
-> AsposeResponse PostDocumentPagesResize (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null)
+> AsposeResponse PostDocumentPagesResize (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null)
 
 Rsize PDF document.
 
@@ -6176,8 +6176,8 @@ Rsize PDF document.
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
- **height** | **float?**| Page Height | 
- **width** | **float?**| Page width | 
+ **height** | **double?**| Page Height | 
+ **width** | **double?**| Page width | 
  **pages** | **string**| Comma separated list of pages and page ranges. (Example: 1,3-5,8) | 
  **storage** | **string**| The document storage. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
@@ -6538,7 +6538,7 @@ Name | Type | Description  | Notes
 
 <a name="postinsertimage"></a>
 # **PostInsertImage**
-> AsposeResponse PostInsertImage (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
+> AsposeResponse PostInsertImage (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
 
 Insert image to document page.
 
@@ -6549,10 +6549,10 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
  **pageNumber** | **int?**| The page number. | 
- **llx** | **float?**| Coordinate lower left X. | 
- **lly** | **float?**| Coordinate lower left Y. | 
- **urx** | **float?**| Coordinate upper right X. | 
- **ury** | **float?**| Coordinate upper right Y. | 
+ **llx** | **double?**| Coordinate lower left X. | 
+ **lly** | **double?**| Coordinate lower left Y. | 
+ **urx** | **double?**| Coordinate upper right X. | 
+ **ury** | **double?**| Coordinate upper right Y. | 
  **imageFilePath** | **string**| Path to image file if specified. Request content is used otherwise. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
@@ -7635,7 +7635,7 @@ Name | Type | Description  | Notes
 
 <a name="postsplitrangepdfdocument"></a>
 # **PostSplitRangePdfDocument**
-> SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null)
+> SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null)
 
 Split document into ranges.
 
@@ -7645,7 +7645,7 @@ Split document into ranges.
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
- **options** | [**SplitRangePdfOptions**](SplitRangePdfOptions.md)| The splitting options. | [optional] 
+ **options** | [**SplitRangePdfOptions**](SplitRangePdfOptions.md)| The splitting options. | 
  **storage** | **string**| The document storage. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
  **password** | **string**| Base64 encoded password. | [optional] 
@@ -9290,7 +9290,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinrequesttodoc"></a>
 # **PutPdfInRequestToDoc**
-> AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
+> AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
 
 Converts PDF document (in request content) to DOC format and uploads resulting file to storage.
 
@@ -9304,10 +9304,10 @@ Name | Type | Description  | Notes
  **format** | **string**| Allows to specify .doc or .docx file format. | [optional] 
  **imageResolutionX** | **int?**| Image resolution X. | [optional] 
  **imageResolutionY** | **int?**| Image resolution Y. | [optional] 
- **maxDistanceBetweenTextLines** | **float?**| Max distance between text lines. | [optional] 
+ **maxDistanceBetweenTextLines** | **double?**| Max distance between text lines. | [optional] 
  **mode** | **string**| Allows to control how a PDF document is converted into a word processing document. | [optional] 
  **recognizeBullets** | **bool?**| Recognize bullets. | [optional] 
- **relativeHorizontalProximity** | **float?**| Relative horizontal proximity. | [optional] 
+ **relativeHorizontalProximity** | **double?**| Relative horizontal proximity. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **password** | **string**| The password (Base64). | [optional] 
  **file** | **System.IO.Stream**| A file to be converted. | [optional] 
@@ -9544,7 +9544,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinrequesttotiff"></a>
 # **PutPdfInRequestToTiff**
-> AsposeResponse PutPdfInRequestToTiff (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
+> AsposeResponse PutPdfInRequestToTiff (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
 
 Converts PDF document (in request content) to TIFF format and uploads resulting file to storage.
 
@@ -9554,7 +9554,7 @@ Converts PDF document (in request content) to TIFF format and uploads resulting 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **outPath** | **string**| Full resulting filename (ex. /folder1/folder2/result.tiff) | 
- **brightness** | **float?**| Image brightness. | [optional] 
+ **brightness** | **double?**| Image brightness. | [optional] 
  **compression** | **string**| Tiff compression. Possible values are: LZW, CCITT4, CCITT3, RLE, None. | [optional] 
  **colorDepth** | **string**| Image color depth. Possible valuse are: Default, Format8bpp, Format4bpp, Format1bpp. | [optional] 
  **leftMargin** | **int?**| Left image margin. | [optional] 
@@ -9726,7 +9726,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinstoragetodoc"></a>
 # **PutPdfInStorageToDoc**
-> AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+> AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
 
 Converts PDF document (located on storage) to DOC format and uploads resulting file to storage.
 
@@ -9741,10 +9741,10 @@ Name | Type | Description  | Notes
  **format** | **string**| Allows to specify .doc or .docx file format. | [optional] 
  **imageResolutionX** | **int?**| Image resolution X. | [optional] 
  **imageResolutionY** | **int?**| Image resolution Y. | [optional] 
- **maxDistanceBetweenTextLines** | **float?**| Max distance between text lines. | [optional] 
+ **maxDistanceBetweenTextLines** | **double?**| Max distance between text lines. | [optional] 
  **mode** | **string**| Allows to control how a PDF document is converted into a word processing document. | [optional] 
  **recognizeBullets** | **bool?**| Recognize bullets. | [optional] 
- **relativeHorizontalProximity** | **float?**| Relative horizontal proximity. | [optional] 
+ **relativeHorizontalProximity** | **double?**| Relative horizontal proximity. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **password** | **string**| The password (Base64). | [optional] 
@@ -9988,7 +9988,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinstoragetotiff"></a>
 # **PutPdfInStorageToTiff**
-> AsposeResponse PutPdfInStorageToTiff (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+> AsposeResponse PutPdfInStorageToTiff (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
 
 Converts PDF document (located on storage) to TIFF format and uploads resulting file to storage
 
@@ -9999,7 +9999,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
  **outPath** | **string**| Full resulting filename (ex. /folder1/folder2/result.tiff) | 
- **brightness** | **float?**| Image brightness. | [optional] 
+ **brightness** | **double?**| Image brightness. | [optional] 
  **compression** | **string**| Tiff compression. Possible values are: LZW, CCITT4, CCITT3, RLE, None. | [optional] 
  **colorDepth** | **string**| Image color depth. Possible valuse are: Default, Format8bpp, Format4bpp, Format1bpp. | [optional] 
  **leftMargin** | **int?**| Left image margin. | [optional] 

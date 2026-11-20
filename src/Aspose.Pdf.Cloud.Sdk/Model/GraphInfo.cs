@@ -60,7 +60,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// <param name="ScalingRateX">Gets or sets a float value that indicates the scaling rate of the x-coordinate when transforming a coordinate system.</param>
         /// <param name="ScalingRateY">Gets or sets a float value that indicates the scaling rate of the y-coordinate when transforming a coordinate system.</param>
         /// <param name="RotationAngle">Gets or sets a float value that indicates the rotation angle of the coordinate system  when transforming a coordinate system.</param>
-        public GraphInfo(float? LineWidth = default(float?), Color Color = default(Color), List<int?> DashArray = default(List<int?>), int? DashPhase = default(int?), Color FillColor = default(Color), bool? IsDoubled = default(bool?), double? SkewAngleX = default(double?), double? SkewAngleY = default(double?), double? ScalingRateX = default(double?), double? ScalingRateY = default(double?), double? RotationAngle = default(double?))
+        public GraphInfo(double? LineWidth = default(double?), Color Color = default(Color), List<int?> DashArray = default(List<int?>), int? DashPhase = default(int?), Color FillColor = default(Color), bool? IsDoubled = default(bool?), double? SkewAngleX = default(double?), double? SkewAngleY = default(double?), double? ScalingRateX = default(double?), double? ScalingRateY = default(double?), double? RotationAngle = default(double?))
         {
             this.LineWidth = LineWidth;
             this.Color = Color;
@@ -80,7 +80,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// </summary>
         /// <value>Gets or sets a float value that indicates the line width of the graph.</value>
         [DataMember(Name="LineWidth", EmitDefaultValue=false)]
-        public float? LineWidth { get; set; }
+        public double? LineWidth { get; set; }
 
         /// <summary>
         /// Gets or sets a Color object that indicates the color of the graph.

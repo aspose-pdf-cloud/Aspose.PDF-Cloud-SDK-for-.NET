@@ -64,7 +64,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// <param name="StrikeOut">Gets or sets strikeout of the text.</param>
         /// <param name="Superscript">Gets or sets superscript mode of the text.</param>
         /// <param name="Subscript">Gets or sets subscript mode of the text.</param>
-        public TextState(double? FontSize = default(double?), string Font = default(string), Color ForegroundColor = default(Color), Color BackgroundColor = default(Color), FontStyles FontStyle = default(FontStyles), string FontFile = default(string), bool? Underline = default(bool?), bool? StrikeOut = default(bool?), bool? Superscript = default(bool?), bool? Subscript = default(bool?))
+        public TextState(float? FontSize = default(float?), string Font = default(string), Color ForegroundColor = default(Color), Color BackgroundColor = default(Color), FontStyles FontStyle = default(FontStyles), string FontFile = default(string), bool? Underline = default(bool?), bool? StrikeOut = default(bool?), bool? Superscript = default(bool?), bool? Subscript = default(bool?))
         {
             // to ensure "FontSize" is required (not null)
             if (FontSize == null)
@@ -99,7 +99,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// </summary>
         /// <value>Gets or sets font size of the text.</value>
         [DataMember(Name="FontSize", EmitDefaultValue=false)]
-        public double? FontSize { get; set; }
+        public float? FontSize { get; set; }
 
         /// <summary>
         /// Gets or sets font name of the text.

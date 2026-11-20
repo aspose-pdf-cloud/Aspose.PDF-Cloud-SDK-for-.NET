@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **BottomMargin** | **double?** | Bottom margin. | [optional] 
 **Rectangle** | [**Rectangle**](Rectangle.md) | Rectangle of the paragraph. | [optional] 
 **Rotation** | **double?** | Rotation angle in degrees. | [optional] 
-**SubsequentLinesIndent** | **double?** | Subsequent lines indent value. | [optional] 
+**SubsequentLinesIndent** | **float?** | Subsequent lines indent value. | [optional] 
 **VerticalAlignment** | [**VerticalAlignment**](VerticalAlignment.md) | Vertical alignment for the text inside paragraph&#39;s rectangle | [optional] 
 **Lines** | [**List&lt;TextLine&gt;**](TextLine.md) | An array of text lines. | 
 

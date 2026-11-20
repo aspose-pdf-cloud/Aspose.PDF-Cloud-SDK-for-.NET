@@ -30,7 +30,7 @@ Method | HTTP request | Description
 [**DeleteStamp**](PdfApi.md#deletestamp) | **DELETE** /pdf/\{name}/stamps/\{stampId} | Delete document stamp by ID
 [**DeleteTable**](PdfApi.md#deletetable) | **DELETE** /pdf/\{name}/tables/\{tableId} | Delete document table by ID
 [**DownloadFile**](PdfApi.md#downloadfile) | **GET** /pdf/storage/file/\{path} | Download file
-[**GetApsInStorageToPdf**](PdfApi.md#getapsinstoragetopdf) | **GET** /pdf/create/aps | Convert APS file (located on storage) to PDF format and return resulting file in response. 
+[**GetApsInStorageToPdf**](PdfApi.md#getapsinstoragetopdf) | **GET** /pdf/create/aps | Convert APS file (located on storage) to PDF format and return resulting file in response.
 [**GetBookmark**](PdfApi.md#getbookmark) | **GET** /pdf/\{name}/bookmarks/bookmark/\{bookmarkPath} | Read document bookmark.
 [**GetBookmarks**](PdfApi.md#getbookmarks) | **GET** /pdf/\{name}/bookmarks/list/\{bookmarkPath} | Read document bookmarks node list.
 [**GetCaretAnnotation**](PdfApi.md#getcaretannotation) | **GET** /pdf/\{name}/annotations/caret/\{annotationId} | Read document page caret annotation by ID.
@@ -77,7 +77,7 @@ Method | HTTP request | Description
 [**GetDocumentTextBoxFields**](PdfApi.md#getdocumenttextboxfields) | **GET** /pdf/\{name}/fields/textbox | Read document text box fields.
 [**GetDocumentUnderlineAnnotations**](PdfApi.md#getdocumentunderlineannotations) | **GET** /pdf/\{name}/annotations/underline | Read document underline annotations.
 [**GetDownloadDocumentAttachmentByIndex**](PdfApi.md#getdownloaddocumentattachmentbyindex) | **GET** /pdf/\{name}/attachments/\{attachmentIndex}/download | Download document attachment content by its index.
-[**GetEpubInStorageToPdf**](PdfApi.md#getepubinstoragetopdf) | **GET** /pdf/create/epub | Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+[**GetEpubInStorageToPdf**](PdfApi.md#getepubinstoragetopdf) | **GET** /pdf/create/epub | Convert EPUB file (located on storage) to PDF format and return resulting file in response.
 [**GetExportFieldsFromPdfToFdfInStorage**](PdfApi.md#getexportfieldsfrompdftofdfinstorage) | **GET** /pdf/\{name}/export/fdf | Export fields from from PDF in storage to FDF file.
 [**GetExportFieldsFromPdfToXfdfInStorage**](PdfApi.md#getexportfieldsfrompdftoxfdfinstorage) | **GET** /pdf/\{name}/export/xfdf | Export fields from from PDF in storage to XFDF file.
 [**GetExportFieldsFromPdfToXmlInStorage**](PdfApi.md#getexportfieldsfrompdftoxmlinstorage) | **GET** /pdf/\{name}/export/xml | Export fields from from PDF in storage to XML file.
@@ -89,7 +89,7 @@ Method | HTTP request | Description
 [**GetFilesList**](PdfApi.md#getfileslist) | **GET** /pdf/storage/folder/\{path} | Get all files and folders within a folder
 [**GetFreeTextAnnotation**](PdfApi.md#getfreetextannotation) | **GET** /pdf/\{name}/annotations/freetext/\{annotationId} | Read document page free text annotation by ID.
 [**GetHighlightAnnotation**](PdfApi.md#gethighlightannotation) | **GET** /pdf/\{name}/annotations/highlight/\{annotationId} | Read document page highlight annotation by ID.
-[**GetHtmlInStorageToPdf**](PdfApi.md#gethtmlinstoragetopdf) | **GET** /pdf/create/html | Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+[**GetHtmlInStorageToPdf**](PdfApi.md#gethtmlinstoragetopdf) | **GET** /pdf/create/html | Convert HTML file (located on storage) to PDF format and return resulting file in response.
 [**GetImage**](PdfApi.md#getimage) | **GET** /pdf/\{name}/images/\{imageId} | Read document image by ID.
 [**GetImageExtractAsGif**](PdfApi.md#getimageextractasgif) | **GET** /pdf/\{name}/images/\{imageId}/extract/gif | Extract document image in GIF format
 [**GetImageExtractAsJpeg**](PdfApi.md#getimageextractasjpeg) | **GET** /pdf/\{name}/images/\{imageId}/extract/jpeg | Extract document image in JPEG format
@@ -99,13 +99,13 @@ Method | HTTP request | Description
 [**GetImagesExtractSvg**](PdfApi.md#getimagesextractsvg) | **GET** /pdf/\{name}/pages/\{pageNumber}/images/extract/svg | Extract SVG images from document page.
 [**GetImportFieldsFromFdfInStorage**](PdfApi.md#getimportfieldsfromfdfinstorage) | **GET** /pdf/\{name}/import/fdf | Update fields from FDF file in storage.
 [**GetImportFieldsFromXfdfInStorage**](PdfApi.md#getimportfieldsfromxfdfinstorage) | **GET** /pdf/\{name}/import/xfdf | Update fields from XFDF file in storage.
-[**GetImportFieldsFromXmlInStorage**](PdfApi.md#getimportfieldsfromxmlinstorage) | **GET** /pdf/\{name}/import/xml | Import from XML file (located on storage) to PDF format and return resulting file in response. 
+[**GetImportFieldsFromXmlInStorage**](PdfApi.md#getimportfieldsfromxmlinstorage) | **GET** /pdf/\{name}/import/xml | Import from XML file (located on storage) to PDF format and return resulting file in response.
 [**GetInkAnnotation**](PdfApi.md#getinkannotation) | **GET** /pdf/\{name}/annotations/ink/\{annotationId} | Read document page ink annotation by ID.
 [**GetLineAnnotation**](PdfApi.md#getlineannotation) | **GET** /pdf/\{name}/annotations/line/\{annotationId} | Read document page line annotation by ID.
 [**GetLinkAnnotation**](PdfApi.md#getlinkannotation) | **GET** /pdf/\{name}/links/\{linkId} | Read document link annotation by ID.
 [**GetListBoxField**](PdfApi.md#getlistboxfield) | **GET** /pdf/\{name}/fields/listbox/\{fieldName} | Read document listbox field by name.
-[**GetMarkdownInStorageToPdf**](PdfApi.md#getmarkdowninstoragetopdf) | **GET** /pdf/create/markdown | Convert MD file (located on storage) to PDF format and return resulting file in response. 
-[**GetMhtInStorageToPdf**](PdfApi.md#getmhtinstoragetopdf) | **GET** /pdf/create/mht | Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+[**GetMarkdownInStorageToPdf**](PdfApi.md#getmarkdowninstoragetopdf) | **GET** /pdf/create/markdown | Convert MD file (located on storage) to PDF format and return resulting file in response.
+[**GetMhtInStorageToPdf**](PdfApi.md#getmhtinstoragetopdf) | **GET** /pdf/create/mht | Convert MHT file (located on storage) to PDF format and return resulting file in response.
 [**GetMovieAnnotation**](PdfApi.md#getmovieannotation) | **GET** /pdf/\{name}/annotations/movie/\{annotationId} | Read document page movie annotation by ID.
 [**GetPage**](PdfApi.md#getpage) | **GET** /pdf/\{name}/pages/\{pageNumber} | Read document page info.
 [**GetPageAnnotations**](PdfApi.md#getpageannotations) | **GET** /pdf/\{name}/pages/\{pageNumber}/annotations | Read document page annotations. Returns only FreeTextAnnotations, TextAnnotations, other annotations will implemented next releases.
@@ -147,8 +147,8 @@ Method | HTTP request | Description
 [**GetPageTextBoxFields**](PdfApi.md#getpagetextboxfields) | **GET** /pdf/\{name}/page/\{pageNumber}/fields/textbox | Read document page text box fields.
 [**GetPageUnderlineAnnotations**](PdfApi.md#getpageunderlineannotations) | **GET** /pdf/\{name}/pages/\{pageNumber}/annotations/underline | Read document page underline annotations.
 [**GetPages**](PdfApi.md#getpages) | **GET** /pdf/\{name}/pages | Read document pages info.
-[**GetPclInStorageToPdf**](PdfApi.md#getpclinstoragetopdf) | **GET** /pdf/create/pcl | Convert PCL file (located on storage) to PDF format and return resulting file in response. 
-[**GetPdfAInStorageToPdf**](PdfApi.md#getpdfainstoragetopdf) | **GET** /pdf/create/pdfa | Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+[**GetPclInStorageToPdf**](PdfApi.md#getpclinstoragetopdf) | **GET** /pdf/create/pcl | Convert PCL file (located on storage) to PDF format and return resulting file in response.
+[**GetPdfAInStorageToPdf**](PdfApi.md#getpdfainstoragetopdf) | **GET** /pdf/create/pdfa | Convert PDFA file (located on storage) to PDF format and return resulting file in response.
 [**GetPdfInStorageToAps**](PdfApi.md#getpdfinstoragetoaps) | **GET** /pdf/\{name}/convert/aps | Converts PDF document (located on storage) to APS format and returns resulting file in response content
 [**GetPdfInStorageToDoc**](PdfApi.md#getpdfinstoragetodoc) | **GET** /pdf/\{name}/convert/doc | Converts PDF document (located on storage) to DOC format and returns resulting file in response content.
 [**GetPdfInStorageToEpub**](PdfApi.md#getpdfinstoragetoepub) | **GET** /pdf/\{name}/convert/epub | Converts PDF document (located on storage) to EPUB format and returns resulting file in response content
@@ -167,7 +167,7 @@ Method | HTTP request | Description
 [**GetPolyLineAnnotation**](PdfApi.md#getpolylineannotation) | **GET** /pdf/\{name}/annotations/polyline/\{annotationId} | Read document page polyline annotation by ID.
 [**GetPolygonAnnotation**](PdfApi.md#getpolygonannotation) | **GET** /pdf/\{name}/annotations/polygon/\{annotationId} | Read document page polygon annotation by ID.
 [**GetPopupAnnotation**](PdfApi.md#getpopupannotation) | **GET** /pdf/\{name}/annotations/popup/\{annotationId} | Read document page popup annotation by ID.
-[**GetPsInStorageToPdf**](PdfApi.md#getpsinstoragetopdf) | **GET** /pdf/create/ps | Convert PS file (located on storage) to PDF format and return resulting file in response. 
+[**GetPsInStorageToPdf**](PdfApi.md#getpsinstoragetopdf) | **GET** /pdf/create/ps | Convert PS file (located on storage) to PDF format and return resulting file in response.
 [**GetRadioButtonField**](PdfApi.md#getradiobuttonfield) | **GET** /pdf/\{name}/fields/radiobutton/\{fieldName} | Read document RadioButton field by name.
 [**GetRedactionAnnotation**](PdfApi.md#getredactionannotation) | **GET** /pdf/\{name}/annotations/redaction/\{annotationId} | Read document page redaction annotation by ID.
 [**GetScreenAnnotation**](PdfApi.md#getscreenannotation) | **GET** /pdf/\{name}/annotations/screen/\{annotationId} | Read document page screen annotation by ID.
@@ -180,22 +180,22 @@ Method | HTTP request | Description
 [**GetStampAnnotation**](PdfApi.md#getstampannotation) | **GET** /pdf/\{name}/annotations/stamp/\{annotationId} | Read document page stamp annotation by ID.
 [**GetStampAnnotationData**](PdfApi.md#getstampannotationdata) | **GET** /pdf/\{name}/annotations/stamp/\{annotationId}/data | Read document page stamp annotation by ID.
 [**GetStrikeOutAnnotation**](PdfApi.md#getstrikeoutannotation) | **GET** /pdf/\{name}/annotations/strikeout/\{annotationId} | Read document page StrikeOut annotation by ID.
-[**GetSvgInStorageToPdf**](PdfApi.md#getsvginstoragetopdf) | **GET** /pdf/create/svg | Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+[**GetSvgInStorageToPdf**](PdfApi.md#getsvginstoragetopdf) | **GET** /pdf/create/svg | Convert SVG file (located on storage) to PDF format and return resulting file in response.
 [**GetTable**](PdfApi.md#gettable) | **GET** /pdf/\{name}/tables/\{tableId} | Read document page table by ID.
-[**GetTeXInStorageToPdf**](PdfApi.md#gettexinstoragetopdf) | **GET** /pdf/create/tex | Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+[**GetTeXInStorageToPdf**](PdfApi.md#gettexinstoragetopdf) | **GET** /pdf/create/tex | Convert TeX file (located on storage) to PDF format and return resulting file in response.
 [**GetText**](PdfApi.md#gettext) | **GET** /pdf/\{name}/text | Read document text.
 [**GetTextAnnotation**](PdfApi.md#gettextannotation) | **GET** /pdf/\{name}/annotations/text/\{annotationId} | Read document page text annotation by ID.
 [**GetTextBoxField**](PdfApi.md#gettextboxfield) | **GET** /pdf/\{name}/fields/textbox/\{fieldName} | Read document text box field by name.
 [**GetUnderlineAnnotation**](PdfApi.md#getunderlineannotation) | **GET** /pdf/\{name}/annotations/underline/\{annotationId} | Read document page underline annotation by ID.
 [**GetVerifySignature**](PdfApi.md#getverifysignature) | **GET** /pdf/\{name}/verifySignature | Verify signature document.
-[**GetWebInStorageToPdf**](PdfApi.md#getwebinstoragetopdf) | **GET** /pdf/create/web | Convert web page to PDF format and return resulting file in response. 
+[**GetWebInStorageToPdf**](PdfApi.md#getwebinstoragetopdf) | **GET** /pdf/create/web | Convert web page to PDF format and return resulting file in response.
 [**GetWordsPerPage**](PdfApi.md#getwordsperpage) | **GET** /pdf/\{name}/pages/wordCount | Get number of words per document page.
 [**GetXfaPdfInStorageToAcroForm**](PdfApi.md#getxfapdfinstoragetoacroform) | **GET** /pdf/\{name}/convert/xfatoacroform | Converts PDF document which contains XFA form (located on storage) to PDF with AcroForm and returns resulting file response content
-[**GetXmlInStorageToPdf**](PdfApi.md#getxmlinstoragetopdf) | **GET** /pdf/create/xml | Convert XML file (located on storage) to PDF format and return resulting file in response. 
+[**GetXmlInStorageToPdf**](PdfApi.md#getxmlinstoragetopdf) | **GET** /pdf/create/xml | Convert XML file (located on storage) to PDF format and return resulting file in response.
 [**GetXmpMetadataJson**](PdfApi.md#getxmpmetadatajson) | **GET** /pdf/\{name}/xmpmetadata/json | Gets document XMP Metadata as JSON.
 [**GetXmpMetadataXml**](PdfApi.md#getxmpmetadataxml) | **GET** /pdf/\{name}/xmpmetadata/xml | Gets document XMP Metadata as XML file.
-[**GetXpsInStorageToPdf**](PdfApi.md#getxpsinstoragetopdf) | **GET** /pdf/create/xps | Convert XPS file (located on storage) to PDF format and return resulting file in response. 
-[**GetXslFoInStorageToPdf**](PdfApi.md#getxslfoinstoragetopdf) | **GET** /pdf/create/xslfo | Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+[**GetXpsInStorageToPdf**](PdfApi.md#getxpsinstoragetopdf) | **GET** /pdf/create/xps | Convert XPS file (located on storage) to PDF format and return resulting file in response.
+[**GetXslFoInStorageToPdf**](PdfApi.md#getxslfoinstoragetopdf) | **GET** /pdf/create/xslfo | Convert XslFo file (located on storage) to PDF format and return resulting file in response.
 [**MoveFile**](PdfApi.md#movefile) | **PUT** /pdf/storage/file/move/\{srcPath} | Move file
 [**MoveFolder**](PdfApi.md#movefolder) | **PUT** /pdf/storage/folder/move/\{srcPath} | Move folder
 [**ObjectExists**](PdfApi.md#objectexists) | **GET** /pdf/storage/exist/\{path} | Check if file or folder exists
@@ -224,7 +224,7 @@ Method | HTTP request | Description
 [**PostDocumentTextStampsPageSpecified**](PdfApi.md#postdocumenttextstampspagespecified) | **POST** /pdf/\{name}/stamps/text/pagespecified | Add document text stamps to specified pages.
 [**PostEncryptDocumentInStorage**](PdfApi.md#postencryptdocumentinstorage) | **POST** /pdf/\{name}/encrypt | Encrypt document in storage.
 [**PostFlattenDocument**](PdfApi.md#postflattendocument) | **POST** /pdf/\{name}/flatten | Flatten the document.
-[**PostHtmlToPdf**](PdfApi.md#posthtmltopdf) | **POST** /pdf/create/html | Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+[**PostHtmlToPdf**](PdfApi.md#posthtmltopdf) | **POST** /pdf/create/html | Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
 [**PostImportFieldsFromFdf**](PdfApi.md#postimportfieldsfromfdf) | **POST** /pdf/\{name}/import/fdf | Update fields from FDF file in request.
 [**PostImportFieldsFromXfdf**](PdfApi.md#postimportfieldsfromxfdf) | **POST** /pdf/\{name}/import/xfdf | Update fields from XFDF file in request.
 [**PostImportFieldsFromXml**](PdfApi.md#postimportfieldsfromxml) | **POST** /pdf/\{name}/import/xml | Update fields from XML file in request.
@@ -273,7 +273,7 @@ Method | HTTP request | Description
 [**PutAddNewPage**](PdfApi.md#putaddnewpage) | **PUT** /pdf/\{name}/pages | Add new page to end of the document.
 [**PutAddText**](PdfApi.md#putaddtext) | **PUT** /pdf/\{name}/pages/\{pageNumber}/text | Add text to PDF document page.
 [**PutAnnotationsFlatten**](PdfApi.md#putannotationsflatten) | **PUT** /pdf/\{name}/annotations/flatten | Flattens the annotations of the specified types
-[**PutApsInStorageToPdf**](PdfApi.md#putapsinstoragetopdf) | **PUT** /pdf/\{name}/create/aps | Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutApsInStorageToPdf**](PdfApi.md#putapsinstoragetopdf) | **PUT** /pdf/\{name}/create/aps | Convert APS file (located on storage) to PDF format and upload resulting file to storage.
 [**PutBookmark**](PdfApi.md#putbookmark) | **PUT** /pdf/\{name}/bookmarks/bookmark/\{bookmarkPath} | Update document bookmark.
 [**PutCaretAnnotation**](PdfApi.md#putcaretannotation) | **PUT** /pdf/\{name}/annotations/caret/\{annotationId} | Replace document caret annotation
 [**PutChangePasswordDocument**](PdfApi.md#putchangepassworddocument) | **PUT** /pdf/changepassword | Change document password from content.
@@ -285,7 +285,7 @@ Method | HTTP request | Description
 [**PutDecryptDocument**](PdfApi.md#putdecryptdocument) | **PUT** /pdf/decrypt | Decrypt document from content.
 [**PutDocumentDisplayProperties**](PdfApi.md#putdocumentdisplayproperties) | **PUT** /pdf/\{name}/displayproperties | Update document display properties.
 [**PutEncryptDocument**](PdfApi.md#putencryptdocument) | **PUT** /pdf/encrypt | Encrypt document from content.
-[**PutEpubInStorageToPdf**](PdfApi.md#putepubinstoragetopdf) | **PUT** /pdf/\{name}/create/epub | Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutEpubInStorageToPdf**](PdfApi.md#putepubinstoragetopdf) | **PUT** /pdf/\{name}/create/epub | Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
 [**PutExportFieldsFromPdfToFdfInStorage**](PdfApi.md#putexportfieldsfrompdftofdfinstorage) | **PUT** /pdf/\{name}/export/fdf | Export fields from from PDF in storage to FDF file in storage.
 [**PutExportFieldsFromPdfToXfdfInStorage**](PdfApi.md#putexportfieldsfrompdftoxfdfinstorage) | **PUT** /pdf/\{name}/export/xfdf | Export fields from from PDF in storage to XFDF file in storage.
 [**PutExportFieldsFromPdfToXmlInStorage**](PdfApi.md#putexportfieldsfrompdftoxmlinstorage) | **PUT** /pdf/\{name}/export/xml | Export fields from from PDF in storage to XML file in storage.
@@ -294,12 +294,12 @@ Method | HTTP request | Description
 [**PutFileAttachmentAnnotationDataExtract**](PdfApi.md#putfileattachmentannotationdataextract) | **PUT** /pdf/\{name}/annotations/fileattachment/\{annotationId}/data/extract | Extract document FileAttachment annotation content to storage
 [**PutFreeTextAnnotation**](PdfApi.md#putfreetextannotation) | **PUT** /pdf/\{name}/annotations/freetext/\{annotationId} | Replace document free text annotation
 [**PutHighlightAnnotation**](PdfApi.md#puthighlightannotation) | **PUT** /pdf/\{name}/annotations/highlight/\{annotationId} | Replace document highlight annotation
-[**PutHtmlInStorageToPdf**](PdfApi.md#puthtmlinstoragetopdf) | **PUT** /pdf/\{name}/create/html | Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutHtmlInStorageToPdf**](PdfApi.md#puthtmlinstoragetopdf) | **PUT** /pdf/\{name}/create/html | Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
 [**PutImageExtractAsGif**](PdfApi.md#putimageextractasgif) | **PUT** /pdf/\{name}/images/\{imageId}/extract/gif | Extract document image in GIF format to folder
 [**PutImageExtractAsJpeg**](PdfApi.md#putimageextractasjpeg) | **PUT** /pdf/\{name}/images/\{imageId}/extract/jpeg | Extract document image in JPEG format to folder
 [**PutImageExtractAsPng**](PdfApi.md#putimageextractaspng) | **PUT** /pdf/\{name}/images/\{imageId}/extract/png | Extract document image in PNG format to folder
 [**PutImageExtractAsTiff**](PdfApi.md#putimageextractastiff) | **PUT** /pdf/\{name}/images/\{imageId}/extract/tiff | Extract document image in TIFF format to folder
-[**PutImageInStorageToPdf**](PdfApi.md#putimageinstoragetopdf) | **PUT** /pdf/\{name}/create/images | Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutImageInStorageToPdf**](PdfApi.md#putimageinstoragetopdf) | **PUT** /pdf/\{name}/create/images | Convert image file (located on storage) to PDF format and upload resulting file to storage.
 [**PutImagesExtractAsGif**](PdfApi.md#putimagesextractasgif) | **PUT** /pdf/\{name}/pages/\{pageNumber}/images/extract/gif | Extract document images in GIF format to folder.
 [**PutImagesExtractAsJpeg**](PdfApi.md#putimagesextractasjpeg) | **PUT** /pdf/\{name}/pages/\{pageNumber}/images/extract/jpeg | Extract document images in JPEG format to folder.
 [**PutImagesExtractAsPng**](PdfApi.md#putimagesextractaspng) | **PUT** /pdf/\{name}/pages/\{pageNumber}/images/extract/png | Extract document images in PNG format to folder.
@@ -311,9 +311,9 @@ Method | HTTP request | Description
 [**PutLineAnnotation**](PdfApi.md#putlineannotation) | **PUT** /pdf/\{name}/annotations/line/\{annotationId} | Replace document line annotation
 [**PutLinkAnnotation**](PdfApi.md#putlinkannotation) | **PUT** /pdf/\{name}/links/\{linkId} | Replace document page link annotations
 [**PutListBoxField**](PdfApi.md#putlistboxfield) | **PUT** /pdf/\{name}/fields/listbox/\{fieldName} | Replace document listbox field
-[**PutMarkdownInStorageToPdf**](PdfApi.md#putmarkdowninstoragetopdf) | **PUT** /pdf/\{name}/create/markdown | Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutMarkdownInStorageToPdf**](PdfApi.md#putmarkdowninstoragetopdf) | **PUT** /pdf/\{name}/create/markdown | Convert MD file (located on storage) to PDF format and upload resulting file to storage.
 [**PutMergeDocuments**](PdfApi.md#putmergedocuments) | **PUT** /pdf/\{name}/merge | Merge a list of documents.
-[**PutMhtInStorageToPdf**](PdfApi.md#putmhtinstoragetopdf) | **PUT** /pdf/\{name}/create/mht | Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutMhtInStorageToPdf**](PdfApi.md#putmhtinstoragetopdf) | **PUT** /pdf/\{name}/create/mht | Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
 [**PutMovieAnnotation**](PdfApi.md#putmovieannotation) | **PUT** /pdf/\{name}/annotations/movie/\{annotationId} | Replace document movie annotation
 [**PutPageAddStamp**](PdfApi.md#putpageaddstamp) | **PUT** /pdf/\{name}/pages/\{pageNumber}/stamp | Add page stamp.
 [**PutPageConvertToBmp**](PdfApi.md#putpageconverttobmp) | **PUT** /pdf/\{name}/pages/\{pageNumber}/convert/bmp | Convert document page to bmp image and upload resulting file to storage.
@@ -322,8 +322,8 @@ Method | HTTP request | Description
 [**PutPageConvertToJpeg**](PdfApi.md#putpageconverttojpeg) | **PUT** /pdf/\{name}/pages/\{pageNumber}/convert/jpeg | Convert document page to Jpeg image and upload resulting file to storage.
 [**PutPageConvertToPng**](PdfApi.md#putpageconverttopng) | **PUT** /pdf/\{name}/pages/\{pageNumber}/convert/png | Convert document page to png image and upload resulting file to storage.
 [**PutPageConvertToTiff**](PdfApi.md#putpageconverttotiff) | **PUT** /pdf/\{name}/pages/\{pageNumber}/convert/tiff | Convert document page to Tiff image and upload resulting file to storage.
-[**PutPclInStorageToPdf**](PdfApi.md#putpclinstoragetopdf) | **PUT** /pdf/\{name}/create/pcl | Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
-[**PutPdfAInStorageToPdf**](PdfApi.md#putpdfainstoragetopdf) | **PUT** /pdf/\{name}/create/pdfa | Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutPclInStorageToPdf**](PdfApi.md#putpclinstoragetopdf) | **PUT** /pdf/\{name}/create/pcl | Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
+[**PutPdfAInStorageToPdf**](PdfApi.md#putpdfainstoragetopdf) | **PUT** /pdf/\{name}/create/pdfa | Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
 [**PutPdfInRequestToAps**](PdfApi.md#putpdfinrequesttoaps) | **PUT** /pdf/convert/aps | Converts PDF document (in request content) to APS format and uploads resulting file to storage.
 [**PutPdfInRequestToDoc**](PdfApi.md#putpdfinrequesttodoc) | **PUT** /pdf/convert/doc | Converts PDF document (in request content) to DOC format and uploads resulting file to storage.
 [**PutPdfInRequestToEpub**](PdfApi.md#putpdfinrequesttoepub) | **PUT** /pdf/convert/epub | Converts PDF document (in request content) to EPUB format and uploads resulting file to storage.
@@ -356,7 +356,7 @@ Method | HTTP request | Description
 [**PutPolygonAnnotation**](PdfApi.md#putpolygonannotation) | **PUT** /pdf/\{name}/annotations/polygon/\{annotationId} | Replace document polygon annotation
 [**PutPopupAnnotation**](PdfApi.md#putpopupannotation) | **PUT** /pdf/\{name}/annotations/popup/\{annotationId} | Replace document popup annotation
 [**PutPrivileges**](PdfApi.md#putprivileges) | **PUT** /pdf/\{name}/privileges | Update privilege document.
-[**PutPsInStorageToPdf**](PdfApi.md#putpsinstoragetopdf) | **PUT** /pdf/\{name}/create/ps | Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutPsInStorageToPdf**](PdfApi.md#putpsinstoragetopdf) | **PUT** /pdf/\{name}/create/ps | Convert PS file (located on storage) to PDF format and upload resulting file to storage.
 [**PutRadioButtonField**](PdfApi.md#putradiobuttonfield) | **PUT** /pdf/\{name}/fields/radiobutton/\{fieldName} | Replace document RadioButton field
 [**PutRedactionAnnotation**](PdfApi.md#putredactionannotation) | **PUT** /pdf/\{name}/annotations/redaction/\{annotationId} | Replace document redaction annotation
 [**PutReplaceImage**](PdfApi.md#putreplaceimage) | **PUT** /pdf/\{name}/images/\{imageId} | Replace document image.
@@ -373,20 +373,20 @@ Method | HTTP request | Description
 [**PutStampAnnotation**](PdfApi.md#putstampannotation) | **PUT** /pdf/\{name}/annotations/stamp/\{annotationId} | Replace document stamp annotation
 [**PutStampAnnotationDataExtract**](PdfApi.md#putstampannotationdataextract) | **PUT** /pdf/\{name}/annotations/stamp/\{annotationId}/data/extract | Extract document stamp annotation content to storage
 [**PutStrikeOutAnnotation**](PdfApi.md#putstrikeoutannotation) | **PUT** /pdf/\{name}/annotations/strikeout/\{annotationId} | Replace document StrikeOut annotation
-[**PutSvgInStorageToPdf**](PdfApi.md#putsvginstoragetopdf) | **PUT** /pdf/\{name}/create/svg | Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutSvgInStorageToPdf**](PdfApi.md#putsvginstoragetopdf) | **PUT** /pdf/\{name}/create/svg | Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
 [**PutTable**](PdfApi.md#puttable) | **PUT** /pdf/\{name}/tables/\{tableId} | Replace document page table.
-[**PutTeXInStorageToPdf**](PdfApi.md#puttexinstoragetopdf) | **PUT** /pdf/\{name}/create/tex | Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutTeXInStorageToPdf**](PdfApi.md#puttexinstoragetopdf) | **PUT** /pdf/\{name}/create/tex | Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
 [**PutTextAnnotation**](PdfApi.md#puttextannotation) | **PUT** /pdf/\{name}/annotations/text/\{annotationId} | Replace document text annotation
 [**PutTextBoxField**](PdfApi.md#puttextboxfield) | **PUT** /pdf/\{name}/fields/textbox/\{fieldName} | Replace document text box field
 [**PutUnderlineAnnotation**](PdfApi.md#putunderlineannotation) | **PUT** /pdf/\{name}/annotations/underline/\{annotationId} | Replace document underline annotation
 [**PutUpdateField**](PdfApi.md#putupdatefield) | **PUT** /pdf/\{name}/fields/\{fieldName} | Update field.
 [**PutUpdateFields**](PdfApi.md#putupdatefields) | **PUT** /pdf/\{name}/fields | Update fields.
-[**PutWebInStorageToPdf**](PdfApi.md#putwebinstoragetopdf) | **PUT** /pdf/\{name}/create/web | Convert web page to PDF format and upload resulting file to storage. 
+[**PutWebInStorageToPdf**](PdfApi.md#putwebinstoragetopdf) | **PUT** /pdf/\{name}/create/web | Convert web page to PDF format and upload resulting file to storage.
 [**PutXfaPdfInRequestToAcroForm**](PdfApi.md#putxfapdfinrequesttoacroform) | **PUT** /pdf/convert/xfatoacroform | Converts PDF document which contains XFA form (in request content) to PDF with AcroForm and uploads resulting file to storage.
 [**PutXfaPdfInStorageToAcroForm**](PdfApi.md#putxfapdfinstoragetoacroform) | **PUT** /pdf/\{name}/convert/xfatoacroform | Converts PDF document which contains XFA form (located on storage) to PDF with AcroForm and uploads resulting file to storage
-[**PutXmlInStorageToPdf**](PdfApi.md#putxmlinstoragetopdf) | **PUT** /pdf/\{name}/create/xml | Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
-[**PutXpsInStorageToPdf**](PdfApi.md#putxpsinstoragetopdf) | **PUT** /pdf/\{name}/create/xps | Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
-[**PutXslFoInStorageToPdf**](PdfApi.md#putxslfoinstoragetopdf) | **PUT** /pdf/\{name}/create/xslfo | Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+[**PutXmlInStorageToPdf**](PdfApi.md#putxmlinstoragetopdf) | **PUT** /pdf/\{name}/create/xml | Convert XML file (located on storage) to PDF format and upload resulting file to storage.
+[**PutXpsInStorageToPdf**](PdfApi.md#putxpsinstoragetopdf) | **PUT** /pdf/\{name}/create/xps | Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
+[**PutXslFoInStorageToPdf**](PdfApi.md#putxslfoinstoragetopdf) | **PUT** /pdf/\{name}/create/xslfo | Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
 [**StorageExists**](PdfApi.md#storageexists) | **GET** /pdf/storage/\{storageName}/exist | Check if storage exists
 [**UploadFile**](PdfApi.md#uploadfile) | **PUT** /pdf/storage/file/\{path} | Upload file
 
@@ -1096,7 +1096,7 @@ Name | Type | Description  | Notes
 # **GetApsInStorageToPdf**
 > System.IO.Stream GetApsInStorageToPdf (string srcPath, string storage = null)
 
-Convert APS file (located on storage) to PDF format and return resulting file in response. 
+Convert APS file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -2332,7 +2332,7 @@ Name | Type | Description  | Notes
 # **GetEpubInStorageToPdf**
 > System.IO.Stream GetEpubInStorageToPdf (string srcPath, string storage = null)
 
-Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+Convert EPUB file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -2646,7 +2646,7 @@ Name | Type | Description  | Notes
 # **GetHtmlInStorageToPdf**
 > System.IO.Stream GetHtmlInStorageToPdf (string srcPath, string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null)
 
-Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+Convert HTML file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -2931,7 +2931,7 @@ Name | Type | Description  | Notes
 # **GetImportFieldsFromXmlInStorage**
 > System.IO.Stream GetImportFieldsFromXmlInStorage (string name, string xmlFilePath, string storage = null, string folder = null)
 
-Import from XML file (located on storage) to PDF format and return resulting file in response. 
+Import from XML file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -3066,7 +3066,7 @@ Name | Type | Description  | Notes
 # **GetMarkdownInStorageToPdf**
 > System.IO.Stream GetMarkdownInStorageToPdf (string srcPath, string storage = null)
 
-Convert MD file (located on storage) to PDF format and return resulting file in response. 
+Convert MD file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -3091,7 +3091,7 @@ Name | Type | Description  | Notes
 # **GetMhtInStorageToPdf**
 > System.IO.Stream GetMhtInStorageToPdf (string srcPath, double? height = null, double? width = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null)
 
-Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+Convert MHT file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -4255,7 +4255,7 @@ Name | Type | Description  | Notes
 # **GetPclInStorageToPdf**
 > System.IO.Stream GetPclInStorageToPdf (string srcPath, string storage = null)
 
-Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+Convert PCL file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -4280,7 +4280,7 @@ Name | Type | Description  | Notes
 # **GetPdfAInStorageToPdf**
 > System.IO.Stream GetPdfAInStorageToPdf (string srcPath, bool? dontOptimize = null, string storage = null)
 
-Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+Convert PDFA file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -4330,7 +4330,7 @@ Name | Type | Description  | Notes
 
 <a name="getpdfinstoragetodoc"></a>
 # **GetPdfInStorageToDoc**
-> System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+> System.IO.Stream GetPdfInStorageToDoc (string name, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
 
 Converts PDF document (located on storage) to DOC format and returns resulting file in response content.
 
@@ -4344,10 +4344,10 @@ Name | Type | Description  | Notes
  **format** | **string**| Allows to specify .doc or .docx file format. | [optional] 
  **imageResolutionX** | **int?**| Image resolution X. | [optional] 
  **imageResolutionY** | **int?**| Image resolution Y. | [optional] 
- **maxDistanceBetweenTextLines** | **double?**| Max distance between text lines. | [optional] 
+ **maxDistanceBetweenTextLines** | **float?**| Max distance between text lines. | [optional] 
  **mode** | **string**| Allows to control how a PDF document is converted into a word processing document. | [optional] 
  **recognizeBullets** | **bool?**| Recognize bullets. | [optional] 
- **relativeHorizontalProximity** | **double?**| Relative horizontal proximity. | [optional] 
+ **relativeHorizontalProximity** | **float?**| Relative horizontal proximity. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **password** | **string**| The password (Base64). | [optional] 
@@ -4610,7 +4610,7 @@ Name | Type | Description  | Notes
 
 <a name="getpdfinstoragetotiff"></a>
 # **GetPdfInStorageToTiff**
-> System.IO.Stream GetPdfInStorageToTiff (string name, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+> System.IO.Stream GetPdfInStorageToTiff (string name, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
 
 Converts PDF document (located on storage) to TIFF format and returns resulting file in response content
 
@@ -4620,7 +4620,7 @@ Converts PDF document (located on storage) to TIFF format and returns resulting 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
- **brightness** | **double?**| Image brightness. | [optional] 
+ **brightness** | **float?**| Image brightness. | [optional] 
  **compression** | **string**| Tiff compression. Possible values are: LZW, CCITT4, CCITT3, RLE, None. | [optional] 
  **colorDepth** | **string**| Image color depth. Possible valuse are: Default, Format8bpp, Format4bpp, Format1bpp. | [optional] 
  **leftMargin** | **int?**| Left image margin. | [optional] 
@@ -4848,7 +4848,7 @@ Name | Type | Description  | Notes
 # **GetPsInStorageToPdf**
 > System.IO.Stream GetPsInStorageToPdf (string srcPath, string storage = null)
 
-Convert PS file (located on storage) to PDF format and return resulting file in response. 
+Convert PS file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -5197,7 +5197,7 @@ Name | Type | Description  | Notes
 # **GetSvgInStorageToPdf**
 > System.IO.Stream GetSvgInStorageToPdf (string srcPath, bool? adjustPageSize = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null)
 
-Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+Convert SVG file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -5257,7 +5257,7 @@ Name | Type | Description  | Notes
 # **GetTeXInStorageToPdf**
 > System.IO.Stream GetTeXInStorageToPdf (string srcPath, string storage = null)
 
-Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+Convert TeX file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -5423,7 +5423,7 @@ Name | Type | Description  | Notes
 # **GetWebInStorageToPdf**
 > System.IO.Stream GetWebInStorageToPdf (string url, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string storage = null)
 
-Convert web page to PDF format and return resulting file in response. 
+Convert web page to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -5507,7 +5507,7 @@ Name | Type | Description  | Notes
 # **GetXmlInStorageToPdf**
 > System.IO.Stream GetXmlInStorageToPdf (string srcPath, string xslFilePath = null, string storage = null)
 
-Convert XML file (located on storage) to PDF format and return resulting file in response. 
+Convert XML file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -5587,7 +5587,7 @@ Name | Type | Description  | Notes
 # **GetXpsInStorageToPdf**
 > System.IO.Stream GetXpsInStorageToPdf (string srcPath, string storage = null)
 
-Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+Convert XPS file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -5612,7 +5612,7 @@ Name | Type | Description  | Notes
 # **GetXslFoInStorageToPdf**
 > System.IO.Stream GetXslFoInStorageToPdf (string srcPath, string storage = null)
 
-Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+Convert XslFo file (located on storage) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -6166,7 +6166,7 @@ Name | Type | Description  | Notes
 
 <a name="postdocumentpagesresize"></a>
 # **PostDocumentPagesResize**
-> AsposeResponse PostDocumentPagesResize (string name, double? height, double? width, string pages, string storage = null, string folder = null, string password = null)
+> AsposeResponse PostDocumentPagesResize (string name, float? height, float? width, string pages, string storage = null, string folder = null, string password = null)
 
 Rsize PDF document.
 
@@ -6176,8 +6176,8 @@ Rsize PDF document.
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
- **height** | **double?**| Page Height | 
- **width** | **double?**| Page width | 
+ **height** | **float?**| Page Height | 
+ **width** | **float?**| Page width | 
  **pages** | **string**| Comma separated list of pages and page ranges. (Example: 1,3-5,8) | 
  **storage** | **string**| The document storage. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
@@ -6428,7 +6428,7 @@ Name | Type | Description  | Notes
 # **PostHtmlToPdf**
 > System.IO.Stream PostHtmlToPdf (string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null)
 
-Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
 
 
 ### Parameters
@@ -6538,7 +6538,7 @@ Name | Type | Description  | Notes
 
 <a name="postinsertimage"></a>
 # **PostInsertImage**
-> AsposeResponse PostInsertImage (string name, int? pageNumber, double? llx, double? lly, double? urx, double? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
+> AsposeResponse PostInsertImage (string name, int? pageNumber, float? llx, float? lly, float? urx, float? ury, string imageFilePath = null, string storage = null, string folder = null, System.IO.Stream image = null)
 
 Insert image to document page.
 
@@ -6549,10 +6549,10 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
  **pageNumber** | **int?**| The page number. | 
- **llx** | **double?**| Coordinate lower left X. | 
- **lly** | **double?**| Coordinate lower left Y. | 
- **urx** | **double?**| Coordinate upper right X. | 
- **ury** | **double?**| Coordinate upper right Y. | 
+ **llx** | **float?**| Coordinate lower left X. | 
+ **lly** | **float?**| Coordinate lower left Y. | 
+ **urx** | **float?**| Coordinate upper right X. | 
+ **ury** | **float?**| Coordinate upper right Y. | 
  **imageFilePath** | **string**| Path to image file if specified. Request content is used otherwise. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
@@ -7635,7 +7635,7 @@ Name | Type | Description  | Notes
 
 <a name="postsplitrangepdfdocument"></a>
 # **PostSplitRangePdfDocument**
-> SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options, string storage = null, string folder = null, string password = null)
+> SplitResultResponse PostSplitRangePdfDocument (string name, SplitRangePdfOptions options = null, string storage = null, string folder = null, string password = null)
 
 Split document into ranges.
 
@@ -7645,7 +7645,7 @@ Split document into ranges.
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
- **options** | [**SplitRangePdfOptions**](SplitRangePdfOptions.md)| The splitting options. | 
+ **options** | [**SplitRangePdfOptions**](SplitRangePdfOptions.md)| The splitting options. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
  **password** | **string**| Base64 encoded password. | [optional] 
@@ -7803,7 +7803,7 @@ Name | Type | Description  | Notes
 # **PutApsInStorageToPdf**
 > AsposeResponse PutApsInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null)
 
-Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+Convert APS file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -8141,7 +8141,7 @@ Name | Type | Description  | Notes
 # **PutEpubInStorageToPdf**
 > AsposeResponse PutEpubInStorageToPdf (string name, string srcPath, string storage = null, string dstFolder = null)
 
-Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -8387,7 +8387,7 @@ Name | Type | Description  | Notes
 # **PutHtmlInStorageToPdf**
 > AsposeResponse PutHtmlInStorageToPdf (string name, string srcPath, string htmlFileName = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null)
 
-Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -8542,7 +8542,7 @@ Name | Type | Description  | Notes
 # **PutImageInStorageToPdf**
 > AsposeResponse PutImageInStorageToPdf (string name, ImageTemplatesRequest imageTemplates, string dstFolder = null, string storage = null)
 
-Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+Convert image file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -8882,7 +8882,7 @@ Name | Type | Description  | Notes
 # **PutMarkdownInStorageToPdf**
 > AsposeResponse PutMarkdownInStorageToPdf (string name, string srcPath, string storage = null, string dstFolder = null)
 
-Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+Convert MD file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -8936,7 +8936,7 @@ Name | Type | Description  | Notes
 # **PutMhtInStorageToPdf**
 > AsposeResponse PutMhtInStorageToPdf (string name, string srcPath, double? height = null, double? width = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null)
 
-Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -9211,7 +9211,7 @@ Name | Type | Description  | Notes
 # **PutPclInStorageToPdf**
 > AsposeResponse PutPclInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null)
 
-Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -9238,7 +9238,7 @@ Name | Type | Description  | Notes
 # **PutPdfAInStorageToPdf**
 > AsposeResponse PutPdfAInStorageToPdf (string name, string srcPath, string dstFolder = null, bool? dontOptimize = null, string storage = null)
 
-Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -9290,7 +9290,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinrequesttodoc"></a>
 # **PutPdfInRequestToDoc**
-> AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
+> AsposeResponse PutPdfInRequestToDoc (string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string storage = null, string password = null, System.IO.Stream file = null)
 
 Converts PDF document (in request content) to DOC format and uploads resulting file to storage.
 
@@ -9304,10 +9304,10 @@ Name | Type | Description  | Notes
  **format** | **string**| Allows to specify .doc or .docx file format. | [optional] 
  **imageResolutionX** | **int?**| Image resolution X. | [optional] 
  **imageResolutionY** | **int?**| Image resolution Y. | [optional] 
- **maxDistanceBetweenTextLines** | **double?**| Max distance between text lines. | [optional] 
+ **maxDistanceBetweenTextLines** | **float?**| Max distance between text lines. | [optional] 
  **mode** | **string**| Allows to control how a PDF document is converted into a word processing document. | [optional] 
  **recognizeBullets** | **bool?**| Recognize bullets. | [optional] 
- **relativeHorizontalProximity** | **double?**| Relative horizontal proximity. | [optional] 
+ **relativeHorizontalProximity** | **float?**| Relative horizontal proximity. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **password** | **string**| The password (Base64). | [optional] 
  **file** | **System.IO.Stream**| A file to be converted. | [optional] 
@@ -9544,7 +9544,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinrequesttotiff"></a>
 # **PutPdfInRequestToTiff**
-> AsposeResponse PutPdfInRequestToTiff (string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
+> AsposeResponse PutPdfInRequestToTiff (string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string storage = null, System.IO.Stream file = null)
 
 Converts PDF document (in request content) to TIFF format and uploads resulting file to storage.
 
@@ -9554,7 +9554,7 @@ Converts PDF document (in request content) to TIFF format and uploads resulting 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **outPath** | **string**| Full resulting filename (ex. /folder1/folder2/result.tiff) | 
- **brightness** | **double?**| Image brightness. | [optional] 
+ **brightness** | **float?**| Image brightness. | [optional] 
  **compression** | **string**| Tiff compression. Possible values are: LZW, CCITT4, CCITT3, RLE, None. | [optional] 
  **colorDepth** | **string**| Image color depth. Possible valuse are: Default, Format8bpp, Format4bpp, Format1bpp. | [optional] 
  **leftMargin** | **int?**| Left image margin. | [optional] 
@@ -9726,7 +9726,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinstoragetodoc"></a>
 # **PutPdfInStorageToDoc**
-> AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, double? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, double? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
+> AsposeResponse PutPdfInStorageToDoc (string name, string outPath, bool? addReturnToLineEnd = null, string format = null, int? imageResolutionX = null, int? imageResolutionY = null, float? maxDistanceBetweenTextLines = null, string mode = null, bool? recognizeBullets = null, float? relativeHorizontalProximity = null, string folder = null, string storage = null, string password = null)
 
 Converts PDF document (located on storage) to DOC format and uploads resulting file to storage.
 
@@ -9741,10 +9741,10 @@ Name | Type | Description  | Notes
  **format** | **string**| Allows to specify .doc or .docx file format. | [optional] 
  **imageResolutionX** | **int?**| Image resolution X. | [optional] 
  **imageResolutionY** | **int?**| Image resolution Y. | [optional] 
- **maxDistanceBetweenTextLines** | **double?**| Max distance between text lines. | [optional] 
+ **maxDistanceBetweenTextLines** | **float?**| Max distance between text lines. | [optional] 
  **mode** | **string**| Allows to control how a PDF document is converted into a word processing document. | [optional] 
  **recognizeBullets** | **bool?**| Recognize bullets. | [optional] 
- **relativeHorizontalProximity** | **double?**| Relative horizontal proximity. | [optional] 
+ **relativeHorizontalProximity** | **float?**| Relative horizontal proximity. | [optional] 
  **folder** | **string**| The document folder. | [optional] 
  **storage** | **string**| The document storage. | [optional] 
  **password** | **string**| The password (Base64). | [optional] 
@@ -9988,7 +9988,7 @@ Name | Type | Description  | Notes
 
 <a name="putpdfinstoragetotiff"></a>
 # **PutPdfInStorageToTiff**
-> AsposeResponse PutPdfInStorageToTiff (string name, string outPath, double? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
+> AsposeResponse PutPdfInStorageToTiff (string name, string outPath, float? brightness = null, string compression = null, string colorDepth = null, int? leftMargin = null, int? rightMargin = null, int? topMargin = null, int? bottomMargin = null, string orientation = null, bool? skipBlankPages = null, int? width = null, int? height = null, int? xResolution = null, int? yResolution = null, int? pageIndex = null, int? pageCount = null, string folder = null, string storage = null)
 
 Converts PDF document (located on storage) to TIFF format and uploads resulting file to storage
 
@@ -9999,7 +9999,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **string**| The document name. | 
  **outPath** | **string**| Full resulting filename (ex. /folder1/folder2/result.tiff) | 
- **brightness** | **double?**| Image brightness. | [optional] 
+ **brightness** | **float?**| Image brightness. | [optional] 
  **compression** | **string**| Tiff compression. Possible values are: LZW, CCITT4, CCITT3, RLE, None. | [optional] 
  **colorDepth** | **string**| Image color depth. Possible valuse are: Default, Format8bpp, Format4bpp, Format1bpp. | [optional] 
  **leftMargin** | **int?**| Left image margin. | [optional] 
@@ -10261,7 +10261,7 @@ Name | Type | Description  | Notes
 # **PutPsInStorageToPdf**
 > AsposeResponse PutPsInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null)
 
-Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+Convert PS file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -10739,7 +10739,7 @@ Name | Type | Description  | Notes
 # **PutSvgInStorageToPdf**
 > AsposeResponse PutSvgInStorageToPdf (string name, string srcPath, bool? adjustPageSize = null, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null)
 
-Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -10802,7 +10802,7 @@ Name | Type | Description  | Notes
 # **PutTeXInStorageToPdf**
 > AsposeResponse PutTeXInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null)
 
-Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -10968,7 +10968,7 @@ Name | Type | Description  | Notes
 # **PutWebInStorageToPdf**
 > AsposeResponse PutWebInStorageToPdf (string name, string url, double? height = null, double? width = null, bool? isLandscape = null, double? marginLeft = null, double? marginBottom = null, double? marginRight = null, double? marginTop = null, string dstFolder = null, string storage = null)
 
-Convert web page to PDF format and upload resulting file to storage. 
+Convert web page to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -11055,7 +11055,7 @@ Name | Type | Description  | Notes
 # **PutXmlInStorageToPdf**
 > AsposeResponse PutXmlInStorageToPdf (string name, string srcPath, string xslFilePath = null, string dstFolder = null, string storage = null)
 
-Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+Convert XML file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -11083,7 +11083,7 @@ Name | Type | Description  | Notes
 # **PutXpsInStorageToPdf**
 > AsposeResponse PutXpsInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null)
 
-Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters
@@ -11110,7 +11110,7 @@ Name | Type | Description  | Notes
 # **PutXslFoInStorageToPdf**
 > AsposeResponse PutXslFoInStorageToPdf (string name, string srcPath, string dstFolder = null, string storage = null)
 
-Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
 
 
 ### Parameters

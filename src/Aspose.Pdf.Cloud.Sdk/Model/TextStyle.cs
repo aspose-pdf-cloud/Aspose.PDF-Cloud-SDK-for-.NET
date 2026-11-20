@@ -59,7 +59,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// <param name="ForegroundColor">Gets or sets foreground color of the text.</param>
         /// <param name="BackgroundColor">Sets background color of the text.</param>
         /// <param name="FontFile">Sets path of font file in storage.</param>
-        public TextStyle(double? FontSize = default(double?), string Font = default(string), Color ForegroundColor = default(Color), Color BackgroundColor = default(Color), string FontFile = default(string))
+        public TextStyle(float? FontSize = default(float?), string Font = default(string), Color ForegroundColor = default(Color), Color BackgroundColor = default(Color), string FontFile = default(string))
         {
             // to ensure "FontSize" is required (not null)
             if (FontSize == null)
@@ -81,7 +81,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// </summary>
         /// <value>Gets or sets font size of the text.</value>
         [DataMember(Name="FontSize", EmitDefaultValue=false)]
-        public double? FontSize { get; set; }
+        public float? FontSize { get; set; }
 
         /// <summary>
         /// Gets or sets font of the text.

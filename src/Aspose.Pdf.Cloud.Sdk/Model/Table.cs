@@ -78,7 +78,7 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// <param name="IsBordersIncluded">Gets or sets border included in column widhts.</param>
         /// <param name="ColumnAdjustment">Gets or sets the table column adjustment.</param>
         /// <param name="ZIndex">Gets ZIndex of the annotation.</param>
-        public Table(List<Link> Links = default(List<Link>), HorizontalAlignment Alignment = default(HorizontalAlignment), HorizontalAlignment HorizontalAlignment = default(HorizontalAlignment), VerticalAlignment VerticalAlignment = default(VerticalAlignment), double? Top = default(double?), double? Left = default(double?), TextState DefaultCellTextState = default(TextState), MarginInfo DefaultCellPadding = default(MarginInfo), BorderInfo Border = default(BorderInfo), MarginInfo Margin = default(MarginInfo), List<Row> Rows = default(List<Row>), string DefaultColumnWidth = default(string), BorderInfo DefaultCellBorder = default(BorderInfo), TableBroken Broken = default(TableBroken), string ColumnWidths = default(string), int? RepeatingRowsCount = default(int?), int? RepeatingColumnsCount = default(int?), TextState RepeatingRowsStyle = default(TextState), BorderCornerStyle CornerStyle = default(BorderCornerStyle), TextRect BreakText = default(TextRect), Color BackgroundColor = default(Color), bool? IsBordersIncluded = default(bool?), ColumnAdjustment ColumnAdjustment = default(ColumnAdjustment), int? ZIndex = default(int?))
+        public Table(List<Link> Links = default(List<Link>), HorizontalAlignment Alignment = default(HorizontalAlignment), HorizontalAlignment HorizontalAlignment = default(HorizontalAlignment), VerticalAlignment VerticalAlignment = default(VerticalAlignment), float? Top = default(float?), float? Left = default(float?), TextState DefaultCellTextState = default(TextState), MarginInfo DefaultCellPadding = default(MarginInfo), BorderInfo Border = default(BorderInfo), MarginInfo Margin = default(MarginInfo), List<Row> Rows = default(List<Row>), string DefaultColumnWidth = default(string), BorderInfo DefaultCellBorder = default(BorderInfo), TableBroken Broken = default(TableBroken), string ColumnWidths = default(string), int? RepeatingRowsCount = default(int?), int? RepeatingColumnsCount = default(int?), TextState RepeatingRowsStyle = default(TextState), BorderCornerStyle CornerStyle = default(BorderCornerStyle), TextRect BreakText = default(TextRect), Color BackgroundColor = default(Color), bool? IsBordersIncluded = default(bool?), ColumnAdjustment ColumnAdjustment = default(ColumnAdjustment), int? ZIndex = default(int?))
         {
             // to ensure "Rows" is required (not null)
             if (Rows == null)
@@ -147,14 +147,14 @@ namespace Aspose.Pdf.Cloud.Sdk.Model
         /// </summary>
         /// <value>Gets or sets the table top coordinate.</value>
         [DataMember(Name="Top", EmitDefaultValue=false)]
-        public double? Top { get; set; }
+        public float? Top { get; set; }
 
         /// <summary>
         /// Gets or sets the table left coordinate.
         /// </summary>
         /// <value>Gets or sets the table left coordinate.</value>
         [DataMember(Name="Left", EmitDefaultValue=false)]
-        public double? Left { get; set; }
+        public float? Left { get; set; }
 
         /// <summary>
         /// Gets or sets the default cell text state.

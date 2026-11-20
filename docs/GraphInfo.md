@@ -5,7 +5,7 @@ Represents graphics info.
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**LineWidth** | **double?** | Gets or sets a float value that indicates the line width of the graph. | [optional] 
+**LineWidth** | **float?** | Gets or sets a float value that indicates the line width of the graph. | [optional] 
 **Color** | [**Color**](Color.md) | Gets or sets a Color object that indicates the color of the graph. | [optional] 
 **DashArray** | **List&lt;int?&gt;** | Gets or sets a dash array. | [optional] 
 **DashPhase** | **int?** | Gets or sets a dash phase. | [optional] 

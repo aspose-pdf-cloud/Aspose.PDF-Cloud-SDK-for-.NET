@@ -16,7 +16,7 @@ namespace Annotations
             else
             {
                 await helper.DeletePopupAnnotationsAsync(documentName, annotationId, remoteFolder);
-                Console.WriteLine("DeleteTextAnnotation(): annotations '{0}' deleted from the document '{1}.", annotationId,  documentName);
+                Console.WriteLine("DeleteTextAnnotation(): annotations '{0}' deleted from the document '{1}.", annotationId, documentName);
                 await helper.DownloadFile(documentName, outputName, "del_text_annotations_");
             }
         }

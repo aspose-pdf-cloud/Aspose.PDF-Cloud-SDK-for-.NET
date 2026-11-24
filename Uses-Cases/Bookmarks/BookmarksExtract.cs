@@ -19,7 +19,8 @@ namespace Bookmarks
             else
             {
                 Console.WriteLine("BookmarksExtract(): all bookmarks successfully received from the document '{0}.", documentName);
-                foreach (Bookmark bookmark in response.Bookmarks.List) {
+                foreach (Bookmark bookmark in response.Bookmarks.List)
+                {
                     Console.WriteLine("BookmarksExtract(): ID = {0}", bookmark.Links[0].Href);
                     Console.WriteLine(bookmark.ToString());
                 }

@@ -24,10 +24,10 @@ namespace Annotations
                     ZIndex: 1,
                     TextStyle: new TextStyle(
                         FontSize:        20,
-		                Font: "Arial",
-		                ForegroundColor: new Color( A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
-		                BackgroundColor: new Color( A: 0xFF, R: 0xFF, G: 0x00, B: 0x00)
-	                ),
+                        Font: "Arial",
+                        ForegroundColor: new Color( A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
+                        BackgroundColor: new Color( A: 0xFF, R: 0xFF, G: 0x00, B: 0x00)
+                    ),
                     Modified: "03/27/2025 00:00:00.000 AM"
                 )
             };

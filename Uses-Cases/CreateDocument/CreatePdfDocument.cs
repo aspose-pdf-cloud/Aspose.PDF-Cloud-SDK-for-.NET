@@ -8,7 +8,7 @@ namespace CreateDocument
         public CreatePdfDocument(CrateDocumentHelper helper)
         {
             DocumentProperties docProps = new DocumentProperties(
-                List: new List<DocumentProperty>() { 
+                List: new List<DocumentProperty>() {
                     new DocumentProperty(Name: "prop1", Value: "Value1", BuiltIn: false)
                 }
             );

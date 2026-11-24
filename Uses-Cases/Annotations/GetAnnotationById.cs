@@ -1,4 +1,5 @@
 ﻿using Aspose.Pdf.Cloud.Sdk.Model;
+using Newtonsoft.Json;
 
 namespace Annotations
 {
@@ -9,8 +10,9 @@ namespace Annotations
             // Get annotation by Id in the PDF document.
             await helper.UploadFile(documentName);
 
-            string annotationResult = string.Empty;
             TextAnnotationResponse response = await helper.pdfApi.GetTextAnnotationAsync(documentName, annotationId, folder: remoteFolder);
+
+            Console.WriteLine(JsonConvert.SerializeObject(response));
 
             if (response == null)
                 Console.WriteLine("RequestTextAnnotationAsync(): Unexpected error!");

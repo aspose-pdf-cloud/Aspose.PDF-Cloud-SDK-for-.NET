@@ -5,10 +5,11 @@ namespace CreateDocument
 {
     public class ConfigParams
     {
-        public string CrdentialPath { get; } = "settings/credentials.json";
+        public string CredentialPath { get; } = Path.Combine("settings", "credentials.json");
         public string LOCAL_FOLDER { get; } = "testData";
         public string TEMP_FOLDER { get; } = "TempPdfCloud";
         public string LOCAL_RESULT_DOCUMENT_NAME { get; } = "output_sample.pdf";
+        public string LOCAL_RESULT_SIMPLE_DOCUMENT_NAME { get; } = "output_created_simple.pdf";
         public int PAGE_WIDTH { get; } = 590;
         public int PAGE_HEIGHT { get; } = 894;
         public int PAGES_COUNT { get; } = 5;
@@ -24,13 +25,13 @@ namespace CreateDocument
 
     public class CrateDocumentHelper
     {
-        public PdfApi pdfApi {  get; private set; }
+        public PdfApi pdfApi { get; private set; }
         public ConfigParams config { get; private set; }
 
         public CrateDocumentHelper()
         {
             config = new ConfigParams();
-            string jsCredText = File.ReadAllText(config.CrdentialPath);
+            string jsCredText = File.ReadAllText(config.CredentialPath);
             Credentials cred = JsonConvert.DeserializeObject<Credentials>(jsCredText);
             pdfApi = new PdfApi(cred.Key, cred.Id);
         }

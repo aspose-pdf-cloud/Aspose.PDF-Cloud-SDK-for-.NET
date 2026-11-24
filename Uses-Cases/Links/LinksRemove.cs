@@ -16,7 +16,8 @@ namespace Links
                 Console.WriteLine("LinksRemove(): Unexpected error!");
             else if (response.Code < 200 || response.Code > 299)
                 Console.WriteLine("LinksRemove(): Failed to remove link from the document.");
-            else {
+            else
+            {
                 Console.WriteLine("LinksRemove(): link '{0}' successfully removed from the document '{1}.", LinkID, documentName);
                 await helper.DownloadFile(documentName, outputName, "del_link_");
             }

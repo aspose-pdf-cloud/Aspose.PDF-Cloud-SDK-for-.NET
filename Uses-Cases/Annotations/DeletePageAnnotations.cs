@@ -13,7 +13,8 @@ namespace Annotations
                 Console.WriteLine("DeletePageAnnotations(): Unexpected error!");
             else if (response.Code < 200 || response.Code > 299)
                 Console.WriteLine("DeletePageAnnotations(): Failed to delete annotation from the document.");
-            else {
+            else
+            {
                 Console.WriteLine("DeletePageAnnotations(): annotations on page '{0}' deleted from the document '{1}.", pageNumber, documentName);
                 await helper.DownloadFile(documentName, outputName, "del_page_annotations_");
             }

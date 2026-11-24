@@ -18,7 +18,7 @@ namespace Stamps
                 Zoom: 1,
                 TextAlignment: HorizontalAlignment.Center,
                 Value: textValue,
-                TextState: new TextState(FontSize: 14, FontStyle: FontStyles.BoldItalic, Font: "Arial", ForegroundColor: new Color( A: 0xFF, R: 0xFF, G: 0x00, B: 0x00))
+                TextState: new TextState(FontSize: 14, FontStyle: FontStyles.BoldItalic, Font: "Arial", ForegroundColor: new Color(A: 0xFF, R: 0xFF, G: 0x00, B: 0x00))
             );
 
             AsposeResponse response = await helper.pdfApi.PostDocumentTextStampsAsync(documentName, new List<TextStamp> { stamp }, folder: remoteFolder);

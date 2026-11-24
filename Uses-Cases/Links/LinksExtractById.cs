@@ -17,7 +17,8 @@ namespace Links
                 Console.WriteLine("LinksExtractById(): Failed to receive link from the document.");
             else if (response.Link == null)
                 Console.WriteLine("LinksExtract(): link '{0}' not found in the document '{1]'.", LinkID, documentName);
-            else {
+            else
+            {
                 Console.WriteLine("LinksExtractById(): link '{0}' successfully received from the document '{1}.", LinkID, documentName);
                 Console.WriteLine(response.Link.ToString());
             }

@@ -8,7 +8,7 @@ namespace Bookmarks
         {
             await helper.UploadFile(documentName);
 
-            BookmarkResponse response = await helper.pdfApi.GetBookmarkAsync(documentName,bookmarkPath, folder: remoteFolder);
+            BookmarkResponse response = await helper.pdfApi.GetBookmarkAsync(documentName, bookmarkPath, folder: remoteFolder);
 
             if (response == null)
                 Console.WriteLine("BookmarksExtractByPath(): Unexpected error!");

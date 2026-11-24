@@ -16,7 +16,8 @@ namespace Links
                 Console.WriteLine("LinksExtract(): Failed to receive links from the document.");
             else if (response.Links == null || response.Links.List == null || response.Links.List.Count == 0)
                 Console.WriteLine("LinksExtract(): links not found in the document.");
-            else {
+            else
+            {
                 Console.WriteLine("LinksExtract(): all links successfully received from the document '{0}.", documentName);
                 foreach (LinkAnnotation link in response.Links.List)
                     Console.WriteLine(link.ToString());

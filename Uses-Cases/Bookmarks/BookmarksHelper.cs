@@ -6,7 +6,7 @@ namespace Bookmarks
 {
     public class ConfigParams
     {
-        public string CredentialPath { get; } = Path.Combine("settings", "credentials.json");
+        public string CredentialPath { get; } = "settings/credentials.json";
         public string LOCAL_FOLDER { get; } = "testData";
         public string REMOTE_TEMP_FOLDER { get; } = "TempPdfCloud";
         public string PDF_DOCUMENT { get; } = "PdfWithBookmarks.pdf";

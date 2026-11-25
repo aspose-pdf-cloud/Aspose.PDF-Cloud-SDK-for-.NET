@@ -6,12 +6,14 @@ namespace Annotations
 {
     public class ConfigParams
     {
-        public string CredentialPath { get; } = Path.Combine("settings", "credentials.json");
-        public string LOCAL_FOLDER { get; } = "testData";
+        public string CrdentialPath { get; } = "..\\credentials.json ";
+        public string LOCAL_FOLDER { get; } = "C:\\Samples";
         public string REMOTE_TEMP_FOLDER { get; } = "TempPdfCloud";
-        public string PDF_DOCUMENT { get; } = "PdfWithAnnotations.pdf";
+        public string PDF_DOCUMENT { get; } = "sample.pdf";
         public string PDF_OUTPUT { get; } = "output_sample.pdf";
-        public int PAGE_NUMBER { get; } = 2;
+        public int PAGE_NUMBER { get; } = 1;
+
+        public string ANNOTATION_ID { get; } = "GE5TAOZTHA2CYMRZGUWDIMBZFQZTEMA";
 
         public string NEW_HL_ANNOTATION_TEXT { get; } = "NEW HIGHLIGHT TEXT ANNOTATION";
         public string NEW_HL_ANNOTATION_DESCRIPTION { get; } = "This is a sample highlight annotation";
@@ -38,9 +40,7 @@ namespace Annotations
 
     public class Credentials
     {
-        [JsonProperty("client_id")]
         public string Id { get; set; }
-        [JsonProperty("client_secret")]
         public string Key { get; set; }
     }
 
@@ -52,7 +52,7 @@ namespace Annotations
         public AnnotationsHelper()
         {
             config = new ConfigParams();
-            string jsCredText = File.ReadAllText(config.CredentialPath);
+            string jsCredText = File.ReadAllText(config.CrdentialPath);
             Credentials cred = JsonConvert.DeserializeObject<Credentials>(jsCredText);
             pdfApi = new PdfApi(cred.Key, cred.Id);
         }

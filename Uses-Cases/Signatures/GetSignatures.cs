@@ -18,8 +18,7 @@ namespace Signatures
             {
                 Console.WriteLine("GetSignatures(): Signatures extracted successfully from the Pdf document '{0}'.", documentName);
 
-                foreach (var field in response.Fields.List)
-                {
+                foreach (var field in response.Fields.List) {
                     Console.WriteLine(field);
                 }
             }

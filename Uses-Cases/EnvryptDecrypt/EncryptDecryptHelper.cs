@@ -4,10 +4,10 @@ using Newtonsoft.Json;
 using System.Text;
 
 namespace EncryptDecrypt
-{
+{ 
     public class ConfigParams
     {
-        public string CredentialPath { get; } = Path.Combine("settings", "credentials.json");
+        public string CrdentialPath { get; } = "settings/credentials.json";
         public string LOCAL_FOLDER { get; } = "testData";
         public string REMOTE_TEMP_FOLDER { get; } = "TempPdfCloud";
         public string PDF_DOCUMENT { get; } = "sample.pdf";
@@ -32,7 +32,7 @@ namespace EncryptDecrypt
         public EncryptDecryptHelper()
         {
             config = new ConfigParams();
-            string jsCredText = File.ReadAllText(config.CredentialPath);
+            string jsCredText = File.ReadAllText(config.CrdentialPath);
             Credentials cred = JsonConvert.DeserializeObject<Credentials>(jsCredText);
             pdfApi = new PdfApi(cred.Key, cred.Id);
         }
